@@ -244,3 +244,54 @@ a.src, .src-list a, .src { font-size: 16px !important; min-height: 32px; line-he
 
 /* his note keeps his own line breaks */
 .update .prose p { white-space: pre-line; }
+
+/* ---------- Body copy, round 4 (Snacks, 2026-10-27 21:36): one pixel larger and a step heavier ---------- */
+.prose, .prose p, p.prose, .rule span, .facts-list li, .yr-list li, .price-list li, .story-list li, .ft-note,
+.update .prose p, .wb p, .sheet .prose { font-size: 21px !important; font-weight: 500; }
+
+/* ---------- Body copy, round 5 (Snacks, 2026-10-27 21:42): larger and heavier again, more air wherever text stacks ----------
+   Body 23px semibold, detail rows 21px medium, captions 20px medium. Bold inside body steps up to 700 so it still stands out.
+   Headings step up so they stay above the body. Every added space is vertical; left and right stay as they were. */
+.prose, .prose p, p.prose, .rule span, .facts-list li, .yr-list li, .price-list li, .story-list li, .ft-note,
+.update .prose p, .wb p, .sheet .prose { font-size: 23px !important; font-weight: 600; line-height: 1.55 !important; }
+.bm-garn, .hrs--wide, .hrs--wide dt, .hrs--wide dd, .gloss, .gloss dt, .gloss dd, .tkt p, .tkt-p, .sheet dl, .sheet dd, .sheet dt { font-size: 21px !important; font-weight: 500; line-height: 1.55 !important; }
+.caption, p.caption, .caption a, .tkt-more, .map-note, .cat-desc, .mega-d { font-size: 20px !important; font-weight: 500; line-height: 1.5 !important; }
+.prose b, .prose strong, .bm-garn b, .strong, b.strong, .hrs--wide dt, .gloss dt, .hrs--wide b { font-weight: 700; }
+.price-list .muted, .hrs--wide .muted { font-size: 21px !important; font-weight: 500; }
+.yr-list .yr { font-size: 20px !important; }
+.tile .tile-t h3 { font-size: 23px !important; }
+.tile-line, p.tile-line { font-size: 20px !important; font-weight: 500; line-height: 1.45 !important; }
+.scene.cat > .w > header .t h2 { font-size: 28px !important; }
+.sheet .heading-sm, #sheet-title { font-size: 31px !important; }
+.update h3 { font-size: 28px !important; }
+
+/* vertical space, about another half again */
+.scene.cat .w > .body, .w > .body { row-gap: 26px; }
+#sheet-body { row-gap: 20px; }
+[role=tabpanel] > * + *, .trip-box > * + * { margin-top: 20px; }
+.prose, .update .prose { row-gap: 22px; }
+.update { row-gap: 14px; }
+.bm-garn + .bm-garn { margin-top: 16px; }
+.facts-list, .facts-list.places { row-gap: 38px; }
+.facts-list li { row-gap: 12px; }
+.yr-list { row-gap: 28px; }
+.price-list { row-gap: 20px; }
+.price-list li { padding-bottom: 20px; }
+.tkt-list { row-gap: 20px; }
+.tkt { row-gap: 16px; }
+.tkt .tkt-more { margin-top: 12px; }
+.tiles { row-gap: 22px; }
+.tile { row-gap: 14px; }
+.tile-t { row-gap: 8px; }
+.rules { row-gap: 18px; }
+.hrs--wide, .gloss { row-gap: 20px; }
+@media (max-width: 400px) { .hrs--wide, .gloss { row-gap: 6px; } .hrs--wide dd, .gloss dd { margin-bottom: 22px; } }
+.src-list, p.caption.src-list { margin-top: 22px; }
+.cat-btn { row-gap: 14px; }
+.links { row-gap: 14px; }
+.mega-d { margin-top: 10px; }
+.ft-words > * + * { margin-top: 16px; }
+
+/* ---------- Body copy, round 6 (Snacks, 2026-10-28 00:27): heavier again, to bold ---------- */
+.prose, .prose p, p.prose, .rule span, .facts-list li, .yr-list li, .price-list li, .story-list li, .ft-note,
+.update .prose p, .wb p, .sheet .prose { font-weight: 700; }

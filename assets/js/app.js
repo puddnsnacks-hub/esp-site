@@ -257,7 +257,9 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
       ${srcList(p.sources)}`;
   }
   function renderWeek(key, d, cityName) {
-    const bd = body(key); if (!bd) return; if (!d || !arr(d.items).length) return pending(key);
+    /* esp, 2026-10-28: each city is a category of its own, with a card for Food, Music, Art and Good to know */
+    const cats = ['food', 'music', 'art', 'notes'];
+    if (!d || !arr(d.items).length) { cats.forEach(c => pending(`${key}-${c}`)); return; }
     /* {start, end} reads as a run of days */
     const items = arr(d.items).filter(p => p && p.name).map(p => Object.assign(p, { city: cityName }, p.dates && !Array.isArray(p.dates) && typeof p.dates === 'object' ? { dates: `${p.dates.start}/${p.dates.end || p.dates.start}` } : {}));
     const shortTime = (t) => { t = known(t) ? String(t).split(/[;(.]\s/)[0].trim() : ''; return t.length <= 24 && !/not found/i.test(t) ? t.replace(/(\w)-(\w)/g, '$1–$2') : ''; };
@@ -265,9 +267,8 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
     const order = (p) => { const s = span(p.dates); if (s) return s.first; const m = String(p.dates || '').replace(/closed[^;.,)]*/gi, '').match(/\b(Oct|Nov)\s+(\d{1,2})\b/); return m ? `2026-${m[1] === 'Oct' ? '10' : '11'}-${m[2].padStart(2, '0')}` : '9999'; };
     const sorted = (cat) => items.filter(p => p.category === cat).map((p, i) => [p, i]).sort((a, b) => order(a[0]).localeCompare(order(b[0])) || a[1] - b[1]).map(x => x[0]);
     const t = (p) => tile({ bare: true, cat: p.category, name: p.name, line: esc([tidy(when(p.dates).replace(/&amp;/g, '&').replace(/&#39;/g, "'")), shortTime(p.times)].filter(Boolean).join(' · ')), open: modal(eventSheet(p, cityName)), attrs: `data-cat="${esc(p.category)}"${onToday(p.dates) && (span(p.dates) || {}).all ? ' data-today' : ''}${gone(p.dates) ? ' data-gone' : ''}` });
-    const groups = CAT_TAB.map(([c, l]) => [c, l, tiles(sorted(c).map(t))]);
-    groups.push(['notes', 'Good to know', ruleList(d.city_notes)]);
-    tabs(bd, key, groups);
+    CAT_TAB.forEach(([c]) => { const bd = body(`${key}-${c}`); if (!bd) return; const list = sorted(c); if (!list.length) return pending(`${key}-${c}`, 'Nothing found for these dates'); bd.innerHTML = tiles(list.map(t)); });
+    const nb = body(`${key}-notes`); if (nb) nb.innerHTML = ruleList(d.city_notes) || '';
   }
 
   /* ---------- Botín ---------- */
@@ -388,7 +389,7 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
     const names = ['updates', 'notes', 'welcome', 'madrid', 'barcelona', 'sansebastian', 'botin', 'sagrada', 'cava'];
     const d = Object.fromEntries(await Promise.all(names.map(async n => [n, await load(n)])));
     const locs = collect(d); locs.forEach(l => byId[l.id] = l); WSP.locations = locs;
-    [[() => renderWeek('madrid-week', d.madrid, 'Madrid')], [() => renderWeek('barcelona-week', d.barcelona, 'Barcelona')], [() => renderWeek('donostia-week', d.sansebastian, 'San Sebastián')],
+    [[() => renderWeek('madrid', d.madrid, 'Madrid')], [() => renderWeek('barcelona', d.barcelona, 'Barcelona')], [() => renderWeek('donostia', d.sansebastian, 'San Sebastián')],
      [() => renderBotin(d.botin)], [() => renderCochinillo(d.botin)], [() => renderRoasts(d.botin)], [() => renderSagrada(d.sagrada)], [() => renderCava(d.cava)]]
       .forEach(([f]) => { try { f(); } catch (e) { console.warn('render', e); } });
     WSP.map.init(locs, (WSP.weather.CITY || {}).id);
