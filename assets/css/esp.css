@@ -302,8 +302,8 @@ a.src, .src-list a, .src { font-size: 16px !important; min-height: 32px; line-he
 .star-filter { filter: none !important; padding: 0 !important; }
 .star-filter svg, .w-star svg { display: block; width: 100% !important; height: 100% !important; fill: none !important; transform: none !important; overflow: visible; }
 .w-star svg { width: 34px !important; height: 34px !important; transform: rotate(10deg) !important; }
-.fav-halo { fill: none; stroke: var(--wsp-paper-5); stroke-width: 1px; vector-effect: non-scaling-stroke; stroke-linejoin: miter; }
+.fav-halo { fill: none; stroke: #fff; stroke-width: 3px; vector-effect: non-scaling-stroke; stroke-linejoin: miter; transform-origin: 50px 50px; transform: scale(var(--halo, 1.02)); }
+.star-filter { --halo: .956; }
 .fav-box { fill: none; stroke: #000; stroke-width: 1px; vector-effect: non-scaling-stroke; stroke-linejoin: miter; }
 .star-filter[aria-pressed="true"] .fav-box, .w-star[aria-pressed="true"] .fav-box { fill: var(--wsp-gold-40); }
-.star-filter[aria-pressed="true"] .fav-halo, .w-star[aria-pressed="true"] .fav-halo { stroke: #000; }
 .w-star.is-pointed { background: none; box-shadow: none; }
