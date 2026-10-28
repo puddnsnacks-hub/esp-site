@@ -317,3 +317,14 @@ a.src, .src-list a, .src { font-size: 16px !important; min-height: 32px; line-he
 .price-list li > .pl-note { grid-column: 1 / -1; display: block; margin-top: 8px; }
 .price-list .muted, .hrs--wide .muted, dd .muted, .muted { font-size: 23px !important; font-weight: 600 !important; line-height: 1.55; }
 .caption, p.caption, .tile-line, p.tile-line { font-size: 22px !important; font-weight: 600 !important; }
+
+/* ---------- Dismiss the note (Snacks, 2026-10-28 08:30) ---------- */
+#scene-home[hidden] { display: none !important; }
+.update { position: relative; }
+.update-dismiss { float: right; margin: 0 0 8px 12px; min-height: 44px; font-size: 18px; font-weight: 700; }
+.update .update-when { overflow: hidden; }
+/* ---------- Body copy, round 7 (Snacks, 2026-10-28 08:30): one step lighter, 700 to 600. Bold labels stay bold. ---------- */
+.prose, .prose p, p.prose, .rule span, .facts-list li, .yr-list li, .price-list li, .story-list li, .ft-note,
+.update .prose p, .wb p, .sheet .prose { font-weight: 600; }
+.update-dismiss { width: auto !important; min-width: 0; padding: 0 16px; display: inline-flex; align-items: center; }
+.update-dismiss { float: none; align-self: flex-end; margin: 0 0 4px 0; }

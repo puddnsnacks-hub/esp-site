@@ -197,15 +197,25 @@ WSP.shell = (function () {
     const b = $('[data-widget="updates"] .body'); if (!b) return;
     /* Michael, 2026-10-24 19:21: his own note stays pinned above the automatic ones; the newest automatic note stays open under it */
     const all = (u && u.updates) || [];
-    const items = all.filter(x => x.pin).concat(all.filter(x => !x.pin));
+    /* Snacks, 2026-10-28 08:30: a way to dismiss his note; remembered on this phone, and a newer note still shows */
+    const nkey = (x) => `${x.date || ''}|${x.title || ''}`;
+    const gone = store.get('dismissed-notes', []);
+    const items = all.filter(x => x.pin).concat(all.filter(x => !x.pin)).filter(x => !gone.includes(nkey(x)));
+    const home = document.getElementById('scene-home');
+    if (!items.length && all.length) { if (home) home.hidden = true; return; }
     const firstAuto = items.findIndex(x => !x.pin);
     const greet = (t) => String(t).replace(/^Hey Baby\b/, 'Hi Baby');
     const fmt = (iso) => { const d = new Date(iso); return isNaN(d) ? esc(iso) : d.toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'Europe/Madrid' }); };
     const seen0 = store.get('updates-seen', 0);
-    const row = (x, i) => `<article class="update${!x.pin && i !== firstAuto ? ' folded-item' : ''}${x.important ? ' important' : ''}"><div class="update-when">${fmt(x.date)}${(Date.parse(x.date) || 0) > seen0 ? ' <span class="update-new">New</span>' : ''}</div>${x.title ? `<h3>${esc(x.title)}</h3>` : ''}<div class="prose">${[].concat(x.body || []).map(p => `<p>${esc(greet(p))}</p>`).join('')}</div>${x.sign ? `<p class="update-sign">${esc(x.sign)}</p>` : ''}${x.link ? `<a class="link-pill" href="${esc(x.link)}"${/^#scene-[\w-]+$/.test(x.link) ? ` data-hero-go="${esc(x.link.slice(7))}"` : ''}>${I().link}${esc(x.link_label || 'Open')}</a>` : ''}</article>`;
+    const row = (x, i) => `<article class="update${!x.pin && i !== firstAuto ? ' folded-item' : ''}${x.important ? ' important' : ''}"><button class="btn btn--sm update-dismiss" type="button" data-note="${esc(nkey(x))}" aria-label="Dismiss this note">Dismiss</button><div class="update-when">${fmt(x.date)}${(Date.parse(x.date) || 0) > seen0 ? ' <span class="update-new">New</span>' : ''}</div>${x.title ? `<h3>${esc(x.title)}</h3>` : ''}<div class="prose">${[].concat(x.body || []).map(p => `<p>${esc(greet(p))}</p>`).join('')}</div>${x.sign ? `<p class="update-sign">${esc(x.sign)}</p>` : ''}${x.link ? `<a class="link-pill" href="${esc(x.link)}"${/^#scene-[\w-]+$/.test(x.link) ? ` data-hero-go="${esc(x.link.slice(7))}"` : ''}>${I().link}${esc(x.link_label || 'Open')}</a>` : ''}</article>`;
     b.innerHTML = (items.length ? items.map(row).join('') : '<p class="muted">Nothing yet. I will leave notes here as the trip goes.</p>') +
       (items.filter((x, i) => !x.pin && i !== firstAuto).length ? `<button class="btn btn--sm letter-more" type="button" id="updates-more" aria-expanded="false">Earlier notes (${items.filter((x, i) => !x.pin && i !== firstAuto).length})</button>` : '') +
       (welcome ? `<p class="caption"><a href="#top" id="welcome-again-2">Read the welcome again</a></p>` : '');
+    $$('.update-dismiss', b).forEach(btn => btn.addEventListener('click', () => {
+      store.set('dismissed-notes', store.get('dismissed-notes', []).concat(btn.dataset.note));
+      const art = btn.closest('.update'); if (art) art.remove();
+      if (!$('.update', b) && home) home.hidden = true;
+    }));
     const more = $('#updates-more'); if (more) more.addEventListener('click', () => { $$('.folded-item', b).forEach(x => x.classList.remove('folded-item')); more.remove(); });
     const seen = store.get('updates-seen', 0); const newest = Math.max(0, ...items.map(x => Date.parse(x.date) || 0));
     // the letter is open, so being on the page is reading it: the New mark shows this visit, then clears
