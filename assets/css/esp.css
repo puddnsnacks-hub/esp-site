@@ -241,3 +241,6 @@ a.src, .src-list a, .src { font-size: 16px !important; min-height: 32px; line-he
 .scene.cat > .w > header > .w-star { margin-left: -6px; }
 .scene.cat > .w > header > .act { order: 3; flex: 1 0 100%; display: flex; justify-content: flex-start; padding: 6px 0 2px 44px; }
 .scene.cat > .w > header:has(.act) .w-toggle { flex: 1 1 0; }
+
+/* his note keeps his own line breaks */
+.update .prose p { white-space: pre-line; }
