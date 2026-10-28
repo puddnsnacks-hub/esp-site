@@ -13,7 +13,7 @@ WSP.icons = (function () {
     check: s('<path d="M5 12l5 5L20 7"/>'),
     x: s('<path d="M6 6l12 12M18 6L6 18"/>'),
     info: s('<circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/>'),
-    fav: '<svg viewBox="0 0 24 24" aria-hidden="true"><path class="fav-halo" d="M8 1h8l7 7v8l-7 7H8l-7-7V8z"/><path class="fav-box" d="M9 4h6l5 5v6l-5 5H9l-5-5V9z"/></svg>',
+    fav: '<span class="fav-box" aria-hidden="true"></span>',
     star: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1.5l1.9 7.1 6.1-4-4 6.1 7.1 1.9-7.1 1.9 4 6.1-6.1-4L12 22.5l-1.9-7.1-6.1 4 4-6.1L.9 12.6 8 10.7l-4-6.1 6.1 4z"/></svg>',
     sun: s('<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>'),
     moon: s('<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/>'),
