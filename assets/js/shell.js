@@ -44,8 +44,8 @@ WSP.shell = (function () {
       t.parentNode.insertBefore(btn, t); btn.insertBefore(t, btn.firstChild);   /* esp: the title first, the expand arrow on the right */
       const body = $(':scope > .body', sec); if (body) body.id = id + '-body';
       if (id !== 'updates') {
-        const star = document.createElement('button'); star.className = 'w-star'; star.type = 'button'; star.setAttribute('aria-pressed', 'false'); star.setAttribute('aria-label', 'Star this card'); star.title = 'Star this card';
-        star.innerHTML = I().star; header.insertBefore(star, header.firstChild);   /* esp: the star on the left, so every expand arrow sits on the right */
+        const star = document.createElement('button'); star.className = 'w-star'; star.type = 'button'; star.setAttribute('aria-pressed', 'false'); star.setAttribute('aria-label', 'Favorite this card'); star.title = 'Favorite this card';
+        star.innerHTML = I().fav; header.insertBefore(star, header.firstChild);   /* esp: the star on the left, so every expand arrow sits on the right */
         star.addEventListener('click', (e) => { e.stopPropagation(); toggleStar(id); });
       }
       btn.addEventListener('click', () => { const opening = sec.hasAttribute('data-collapsed'); setOpen(sec, opening); if (!opening && !store.get('star-tip', 0) && sec.id !== 'updates') setTimeout(showCoach, 400); /* UX review: the tip waits until she has read and closed a card, so it never covers the answer */ });
@@ -145,7 +145,7 @@ WSP.shell = (function () {
   let starsOnly = false;
   function applyStars() {
     const s = stars(); const all = $$('main section.w');
-    all.forEach(sec => { const on = s.includes(sec.id); const b = $('.w-star', sec); if (b) { b.setAttribute('aria-pressed', String(on)); b.title = on ? 'Unstar' : 'Star this card'; } sec.classList.toggle('is-starred', on); });
+    all.forEach(sec => { const on = s.includes(sec.id); const b = $('.w-star', sec); if (b) { b.setAttribute('aria-pressed', String(on)); b.title = on ? 'Remove from favorites' : 'Favorite this card'; } sec.classList.toggle('is-starred', on); });
     if (starsOnly) collectStarred();
   }
   /* The star up top: on, only the starred cards (gathered on one page); off, everything where it lives. */
@@ -154,8 +154,8 @@ WSP.shell = (function () {
     const original = WSP.shell.order || (WSP.shell.order = $$('main section.w').map(x => x.id));
     original.forEach(id => { const el = document.getElementById(id); if (!el) return; if (!el.dataset.home) el.dataset.home = el.parentElement.id || ''; if (s.includes(id)) view.insertBefore(el, note); else if (el.parentElement === view) { const home = document.getElementById(el.dataset.home); if (home) home.appendChild(el); } });
     note.innerHTML = s.length
-      ? `<p>Every card you star lands here, in one place. Tap the star up top again and everything goes back where it was.</p>`
-      : `<p>Nothing starred yet. Tap the star on any card and it lands here.</p>`;
+      ? `<p>Every card you favorite lands here, in one place. Tap the star up top again and everything goes back where it was.</p>`
+      : `<p>Nothing favorited yet. Tap the box on any card and it lands here.</p>`;
   }
   function setStarsOnly(on, opts = {}) {
     starsOnly = on; const btn = $('#star-filter'); if (btn) btn.setAttribute('aria-pressed', String(on));
