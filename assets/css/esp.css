@@ -312,3 +312,8 @@ a.src, .src-list a, .src { font-size: 16px !important; min-height: 32px; line-he
 .w-star .fav-box { stroke: #fff; stroke-width: 2px; }
 .w-star[aria-pressed="true"] .fav-halo { display: inline; }
 .w-star[aria-pressed="true"] .fav-box { stroke: #000; stroke-width: 1px; }
+
+/* ---------- Description text (Snacks, 2026-10-28 08:28): larger and heavier everywhere it appears; menu notes run the full width under the price ---------- */
+.price-list li > .pl-note { grid-column: 1 / -1; display: block; margin-top: 8px; }
+.price-list .muted, .hrs--wide .muted, dd .muted, .muted { font-size: 23px !important; font-weight: 600 !important; line-height: 1.55; }
+.caption, p.caption, .tile-line, p.tile-line { font-size: 22px !important; font-weight: 600 !important; }

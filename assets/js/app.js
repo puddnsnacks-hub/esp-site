@@ -276,7 +276,7 @@ document.addEventListener('click', (e) => { const a = e.target.closest && e.targ
     const bd = body('botin'); if (!bd) return; const x = b && b.botin; if (!x) return pending('botin');
     x.id = x.id || 'botin'; x.category = 'roast';
     const res = x.reservations || {};
-    const spec = arr(x.specialties).filter(s => s && s.dish).map(s => `<li><span>${esc(s.dish)}${known(s.notes) ? ` <span class="muted">${esc(s.notes)}</span>` : ''}</span><span class="num">${txt(s.price)}</span></li>`).join('');
+    const spec = arr(x.specialties).filter(s => s && s.dish).map(s => `<li><span>${esc(s.dish)}</span><span class="num">${txt(s.price)}</span>${known(s.notes) ? `<span class="muted pl-note">${esc(s.notes)}</span>` : ''}</li>`).join('');
     const story = arr(x.history).filter(f => f && f.fact).map(f => `<li><span>${esc(f.fact)}${src(f.source)}</span></li>`).join('');
     const diners = arr(x.famous_diners).filter(f => f && f.name).map(f => `<li><span><b>${esc(f.name)}.</b> ${esc(f.story || '')}${src(f.source)}</span></li>`).join('');
     const book = `<div class="links">${pill(res.url, 'Reserve', I.ticket, 'maps')}${pill(x.menu_url, 'Menu', I.link)}${x.phone ? `<a class="link-pill" href="tel:${esc(String(x.phone).replace(/[^\d+]/g, ''))}">${I.clock}Call</a>` : ''}${pill(mapsFor(Object.assign({ city: 'Madrid' }, x)), 'Maps', I.pin)}${onMap(x)}</div>`;
