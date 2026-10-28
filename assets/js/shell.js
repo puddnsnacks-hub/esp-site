@@ -171,7 +171,7 @@ WSP.shell = (function () {
   }
   let prevChapter = null;
   function wireStarFilter() {
-    const btn = $('#star-filter'); if (!btn) return; btn.innerHTML = I().star;
+    const btn = $('#star-filter'); if (!btn) return; btn.innerHTML = I().fav;
     btn.addEventListener('click', () => setStarsOnly(!starsOnly));
   }
 

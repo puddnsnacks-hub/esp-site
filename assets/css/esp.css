@@ -296,7 +296,14 @@ a.src, .src-list a, .src { font-size: 16px !important; min-height: 32px; line-he
 .prose, .prose p, p.prose, .rule span, .facts-list li, .yr-list li, .price-list li, .story-list li, .ft-note,
 .update .prose p, .wb p, .sheet .prose { font-weight: 700; }
 
-/* ---------- Favorite toggle (Snacks, 2026-10-28): the same box as the expand toggle (28px, 2px ring). Off = a 1px black outline inside the ring, no fill. On = gold fill. ---------- */
-.w-star .fav-box { display: block; flex: none; width: 28px; height: 28px; box-sizing: border-box; border: 2px solid currentColor; background: none; box-shadow: inset 0 0 0 1px #000; }
-.w-star[aria-pressed="true"] .fav-box { background: var(--wsp-gold-30); }
+/* ---------- Favorite toggle (Snacks, 2026-10-28): the header's starburst shape, no star inside. The card toggle is the same shape, smaller. Off = a 1px black outline inside the shape, no fill. On = gold fill. ---------- */
+.star-filter, .w-star { color: #000; }
+.star-filter::before { display: none !important; }
+.star-filter { filter: none !important; padding: 0 !important; }
+.star-filter svg, .w-star svg { display: block; width: 100% !important; height: 100% !important; fill: none !important; transform: none !important; overflow: visible; }
+.w-star svg { width: 34px !important; height: 34px !important; transform: rotate(10deg) !important; }
+.fav-halo { fill: none; stroke: var(--wsp-paper-5); stroke-width: 1px; vector-effect: non-scaling-stroke; stroke-linejoin: miter; }
+.fav-box { fill: none; stroke: #000; stroke-width: 1px; vector-effect: non-scaling-stroke; stroke-linejoin: miter; }
+.star-filter[aria-pressed="true"] .fav-box, .w-star[aria-pressed="true"] .fav-box { fill: var(--wsp-gold-40); }
+.star-filter[aria-pressed="true"] .fav-halo, .w-star[aria-pressed="true"] .fav-halo { stroke: #000; }
 .w-star.is-pointed { background: none; box-shadow: none; }
