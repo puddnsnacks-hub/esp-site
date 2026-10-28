@@ -1,0 +1,105 @@
+{
+  "checked_at": "2026-10-27",
+  "history": [
+    {"year": 1882, "fact": "The first project was designed by diocesan architect Francisco de Paula del Villar. The first stone was laid on March 19, 1882, promoted by the Association of Devotees of Saint Joseph.", "source": "https://sagradafamilia.org/en/history-of-the-temple"},
+    {"year": 1882, "fact": "It was founded as an expiatory temple by Josep Maria Bocabella. It has always been funded by donations from thousands of anonymous people.", "source": "https://sagradafamilia.org/en/the-foundation"},
+    {"year": 1883, "fact": "Antoni Gaudí took over the project at age 31, after Villar left.", "source": "https://sagradafamilia.org/en/antoni-gaudi"},
+    {"year": 1925, "fact": "The bell tower of St. Barnabas, the first tower, was crowned. It is the only tower Gaudí saw finished.", "source": "https://www.catalannews.com/life-style/item/sagrada-familia-timeline-of-a-temple-under-construction-for-144-years"},
+    {"year": 1926, "fact": "Gaudí was hit by a tram and died three days later, on June 10. By then the Nativity facade (up to the St. Barnabas tower), the apse facade, the Rosary portal and the schools were built.", "source": "https://www.catalannews.com/life-style/item/sagrada-familia-timeline-of-a-temple-under-construction-for-144-years"},
+    {"year": 1936, "fact": "At the start of the Spanish Civil War, a fire burned the crypt and Gaudí's workshop. Plans, drawings and photos were lost and plaster models were smashed.", "source": "https://www.catalannews.com/life-style/item/sagrada-familia-timeline-of-a-temple-under-construction-for-144-years"},
+    {"year": 2005, "fact": "UNESCO named the Nativity facade and the crypt World Heritage, as part of the Works of Antoni Gaudí listing.", "source": "https://sagradafamilia.org/en/history-of-the-temple"},
+    {"year": 2010, "fact": "On November 7, 2010, Pope Benedict XVI consecrated the church and made it a minor basilica.", "source": "https://sagradafamilia.org/en/history-of-the-temple"},
+    {"year": 2019, "fact": "Barcelona granted a building permit, 137 years after work began. The board agreed to pay 4.6 million euros for it.", "source": "https://catalannews.com/society-science/item/sagrada-familia-church-finally-gets-building-permit-after-137-years"},
+    {"year": 2021, "fact": "On December 8, 2021, the Tower of the Virgin Mary opened, topped with a 12-pointed star.", "source": "https://sagradafamilia.org/en/history-of-the-temple"},
+    {"year": 2023, "fact": "On November 12, 2023, the four towers of the Evangelists were inaugurated.", "source": "https://sagradafamilia.org/en/history-of-the-temple"},
+    {"year": 2026, "fact": "On February 20, 2026, the Tower of Jesus Christ was topped out with the upper arm of its cross. At 172.5 m it is the building's final maximum height.", "source": "https://sagradafamilia.org/en/history-of-the-temple"},
+    {"year": 2026, "fact": "On June 10, 2026, the 100th anniversary of Gaudí's death, Pope Leo XIV said Mass and blessed the Tower of Jesus Christ. It was lit up for the first time.", "source": "https://www.travelpulse.com/news/destinations/pope-leo-xiv-blesses-barcelona-s-completed-gaudi-basilica"},
+    {"year": 2026, "fact": "The Glory facade, the main entrance, is still at an early stage. Only its base pillars are built. Its large staircase would mean demolishing some nearby apartment buildings, and this is not yet agreed. Recent forecasts put completion around 2034; another report says 2036.", "source": "https://www.domusweb.it/en/news/2026/07/15/sagrada-familia-completion-demolitions-barcelona.amp.html"}
+  ],
+  "architecture": [
+    {"point": "Gaudí built with ruled surfaces such as hyperboloids. A large hyperboloid crowns the crossing, and the apse has a hyperboloid vault 75 m high. Ruled surfaces also shape the nave vaults, the windows and the Passion facade.", "source": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"},
+    {"point": "The columns branch like trees. Each starts as a star-shaped base and twists left and right into a circle as it rises. Gaudí drew on a eucalyptus tree that grew near his studio.", "source": "https://blog.sagradafamilia.org/en/columnes-sagrada-familia-geometria-mecanica-materials-bosc-pedra/"},
+    {"point": "The interior is meant to feel like a stone forest. Openings in the vaults filter light like sun through leaves. Columns are grouped by load, from red porphyry at the crossing to black basalt, gray granite and yellow sandstone.", "source": "https://blog.sagradafamilia.org/en/columnes-sagrada-familia-geometria-mecanica-materials-bosc-pedra/"},
+    {"point": "Gaudí designed with hanging models. For the Colònia Güell crypt he hung weighted strings to form catenary curves, then flipped photos of them to find the shapes of arches and columns.", "source": "https://en.wikipedia.org/wiki/Antoni_Gaud%C3%AD"},
+    {"point": "Light is part of the design. Stained glass by Joan Vila-Grau (from 1999) uses cool blues on the east side for morning light and warm reds and oranges on the west for evening light. Lower windows are deeply colored; upper windows are clear so sun can light the vaults.", "source": "https://blog.sagradafamilia.org/en/vitralls-llum-colors-creacio/"},
+    {"point": "Gaudí worked by trial and error with scale models, often more than with drawings. He called nature his true master. Today's architects still use this method, with new technology.", "source": "https://sagradafamilia.org/en/antoni-gaudi"},
+    {"point": "Three facades tell the story of Jesus. The Nativity facade faces the rising sun and is full of nature scenes. The Passion facade faces the setting sun and is stark, to show suffering. The Glory facade, still unbuilt, faces south and will be the main entrance.", "source": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"},
+    {"point": "Gaudí influenced later architects. Le Corbusier admired him. Others shaped by his work include Pier Luigi Nervi, Oscar Niemeyer, Félix Candela, Eduardo Torroja, Santiago Calatrava and Frei Otto.", "source": "https://en.wikipedia.org/wiki/Antoni_Gaud%C3%AD"}
+  ],
+  "gaudi": [
+    {"year": 1852, "fact": "Antoni Gaudí was born on June 25, 1852, in Reus, Catalonia.", "source": "https://sagradafamilia.org/en/antoni-gaudi"},
+    {"year": 1860, "fact": "He began learning a trade in his father's workshop. At school he excelled in geometry and arithmetic.", "source": "https://sagradafamilia.org/en/antoni-gaudi"},
+    {"year": 1878, "fact": "He graduated in architecture in Barcelona, after starting school there in 1873.", "source": "https://sagradafamilia.org/en/antoni-gaudi"},
+    {"year": 1878, "fact": "Eusebi Güell saw a display case Gaudí designed for the Paris World's Fair. He asked to meet Gaudí and became his main patron and friend.", "source": "https://en.wikipedia.org/wiki/Antoni_Gaud%C3%AD"},
+    {"year": 1904, "fact": "Between 1904 and 1910 he built Casa Batlló and Casa Milà (La Pedrera). He worked on Park Güell, commissioned by Güell, in the first decade of the 1900s.", "source": "https://en.wikipedia.org/wiki/Antoni_Gaud%C3%AD"},
+    {"year": 1914, "fact": "He stopped taking other projects to work only on the Sagrada Família. He was a man of deep faith and spoke of serving God through architecture.", "source": "https://sagradafamilia.org/en/antoni-gaudi"},
+    {"year": 1925, "fact": "Months before he died, he moved into his workshop at the Sagrada Família.", "source": "https://en.wikipedia.org/wiki/Antoni_Gaud%C3%AD"},
+    {"year": 1926, "fact": "On June 7, 1926, a tram hit him on the Gran Via. Taken for a beggar, he got little help at first. He died on June 10, 1926.", "source": "https://en.wikipedia.org/wiki/Antoni_Gaud%C3%AD"},
+    {"year": 1926, "fact": "His funeral procession crossed much of Barcelona. He is buried in the Chapel of Our Lady of Carmel in the crypt of the Sagrada Família.", "source": "https://sagradafamilia.org/en/antoni-gaudi"},
+    {"year": 2025, "fact": "On April 14, 2025, Pope Francis declared him Venerable, the step before beatification. He is known as \"God's architect,\" a name first used in 1926.", "source": "https://www.catalannews.com/society-science/item/pope-approves-first-steps-toward-beatification-of-architect-antoni-gaudi"}
+  ],
+  "visit": {
+    "hours": [
+      {"date": "2026-11-01 (Sun, All Saints)", "hours": "10:30 AM–6:00 PM (Sunday hours; no special hours listed for Nov 1)", "source": "https://sagradafamilia.org/en/schedules-how-to-get"},
+      {"date": "2026-11-02 (Mon)", "hours": "9:00 AM–6:00 PM", "source": "https://sagradafamilia.org/en/schedules-how-to-get"},
+      {"date": "2026-11-03 (Tue)", "hours": "9:00 AM–6:00 PM", "source": "https://sagradafamilia.org/en/schedules-how-to-get"},
+      {"date": "2026-11-04 (Wed)", "hours": "9:00 AM–6:00 PM", "source": "https://sagradafamilia.org/en/schedules-how-to-get"},
+      {"date": "2026-11-05 (Thu)", "hours": "9:00 AM–6:00 PM", "source": "https://sagradafamilia.org/en/schedules-how-to-get"}
+    ],
+    "hours_note": "Hours may change for special events inside the basilica. Tickets are sold online only.",
+    "tickets": [
+      {"name": "Sagrada Família (basic)", "price": "€26 (under 30s and students €24, seniors €21, under 11s free)", "includes": "Basilica entry and the Audioguide app", "booking_url": "https://sagradafamilia.org/en/tickets-individuals"},
+      {"name": "Sagrada Família with guided tour", "price": "€30 (under 30s and students €28, seniors €23, under 11s free)", "includes": "Basilica entry, official guide, Audioguide app", "booking_url": "https://sagradafamilia.org/en/tickets-individuals"},
+      {"name": "Sagrada Família with towers", "price": "€36 (under 30s and students €34, seniors €28, under 11s free)", "includes": "Basilica entry, one tower visit, Audioguide app", "booking_url": "https://sagradafamilia.org/en/tickets-individuals"},
+      {"name": "Sagrada Família with guided tour and towers", "price": "€40 (under 30s and students €38, seniors €32, under 11s free)", "includes": "Basilica entry, official guide, one tower visit, Audioguide app", "booking_url": "https://sagradafamilia.org/en/tickets-individuals"}
+    ],
+    "booking_lead": "Official site says only to buy ahead to be sure of entry; it gives no number of days. Tickets are online only, for a set date and time. Changes are generally restricted.",
+    "towers": "Children under 6 cannot go up. Ages 6 to 15 must be with an adult. You go up by elevator and walk down the stairs. Bags go in tower lockers. Towers can close for bad weather or maintenance. (Secondary source; not confirmed on the official site.)",
+    "dress_security": "Bags and camera gear are checked at the entrance. No see-through clothing; shorts and skirts at least mid-thigh; no swimwear; no bare feet; no hats inside (religious or health reasons excepted). No outside drinks, no eating, no smoking, no tripods, no protests.",
+    "what_to_bring": "Your ticket for the exact date and time, and earphones (the official ticket includes headphones and the app; a 9–10 AM quiet hour asks for silence and earphones for audio). Pack light because bags are searched and tower visitors must use lockers.",
+    "best_light": "Inside, the east windows glow cool blue in the morning; the west windows glow warm red and orange late in the day. The effect is strongest near the solstices. The Nativity facade faces the rising sun (morning) and the Passion facade the setting sun (afternoon).",
+    "address": "Carrer de Mallorca, 401, 08013 Barcelona. Individual visitors enter at the Nativity facade on Carrer de la Marina. Metro L2 and L5, Sagrada Família stop.",
+    "lat": 41.4036,
+    "lng": 2.1744,
+    "sources": [
+      "https://sagradafamilia.org/en/schedules-how-to-get",
+      "https://sagradafamilia.org/en/prices",
+      "https://sagradafamilia.org/en/tickets-individuals",
+      "https://sagradafamilia.org/en/rules-and-regulations",
+      "https://blog.wego.com/sagrada-familia-visitor-guide/",
+      "https://blog.sagradafamilia.org/en/vitralls-llum-colors-creacio/",
+      "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
+    ]
+  },
+  "mass": {
+    "schedule": [
+      {"day": "Sun Nov 1 (All Saints)", "time": "9:00 AM", "language": "International (several languages; varies)", "notes": "International Mass in the basilica, held every Sunday and holy day of obligation. Enter on Carrer de la Marina."},
+      {"day": "Sun Nov 1", "time": "10:30 AM, 1:00 PM, 6:30 PM (Catalan); 11:45 AM, 8:00 PM (Spanish)", "language": "Catalan / Spanish", "notes": "Parish Masses for Sundays and holidays. The parish page does not say where they are held."},
+      {"day": "Mon Nov 2 – Thu Nov 5", "time": "9:00 AM (Spanish), 10:00 AM (English), 8:00 PM (Catalan)", "language": "Spanish / English / Catalan", "notes": "Parish weekday Masses. Location not stated on the parish page."},
+      {"day": "Saturdays and evenings before holy days", "time": "8:00 PM", "language": "International", "notes": "Second international Mass in the basilica. Sat Oct 31 is before the trip."}
+    ],
+    "how_to_attend": "Free and open to all, first come, first served, until capacity is reached. Enter through the Nativity facade on Carrer de la Marina. In 2021 the basilica said doors open at 8 AM for the 9 AM Mass, with room for about 500; this may have changed. Dress modestly. Groups over 25 must notify the basilica. Questions: missainternacional@sagradafamilia.org.",
+    "tickets_needed": "No. There is no charge and no ticket is mentioned. Mass is not a sightseeing visit.",
+    "source": "https://sagradafamilia.org/en/worship-at-the-basilica",
+    "other_sources": [
+      "https://parroquiasagradafamilia.cat/celebrar-la-fe/horaris/",
+      "https://sagradafamilia.org/en/-/es-reprenen-les-misses-internacionals-a-l-interior-del-temple",
+      "https://sagradafamilia.org/en/detalle/-/asset_publisher/7JWibz9G2KUY/content/la-sagrada-familia-incorpora-una-segona-missa-internacional-al-seu-calendari-liturgic"
+    ]
+  },
+  "nearby": [
+    {"name": "Sercotel Rosselló rooftop terrace (formerly Ayre Rosellón)", "address": "Carrer de Rosselló, 390, 08025 Barcelona", "why": "Rooftop right across from the basilica with a direct view. Tapas, sandwiches, sangria and cocktails. Open all year: Mon–Fri 7 AM–10 PM, Sat–Sun 8 AM–8 PM. Book about a week ahead for a view table.", "source": "https://thisisbarcelona.com/gastronomy/rooftops-and-terraces/sercotel-rossello-terrace"},
+    {"name": "El Cel rooftop, Radisson Blu 1882 Hotel", "address": "Carrer de Còrsega, 482, Barcelona", "why": "Hotel rooftop bar and pool deck with views of the basilica, a few minutes away. Open to non-guests and hours not confirmed.", "source": "https://radissonhotels.com/en-us/hotels/radisson-blu-sagrada-familia-barcelona"}
+  ],
+  "open_questions": [
+    "The official ticket pages show a banner saying the basilica is 'temporarily closed to the public.' The only matching notice found is a weather closure on Oct 4, 2026 (until 2 PM). It is likely stale, but check sagradafamilia.org before Nov 1.",
+    "No special hours for Nov 1 (All Saints) were found; normal Sunday hours are assumed.",
+    "Tower rules (under 6 not allowed, elevator up and stairs down) come from a secondary guide, not the official site. Which towers (Nativity or Passion) are offered in Nov 2026 was not found.",
+    "How far ahead tickets are released or sell out was not found on the official site.",
+    "Current door-opening time and capacity for the 9 AM International Mass not confirmed (2021 article said doors at 8 AM, 500 people).",
+    "Where the parish Masses are held (crypt or basilica) not stated on the parish page.",
+    "Completion date differs by source: around 2034 (Domus, July 2026) vs 2036 (Catalan News). The tower interior of Jesus Christ is expected in 2028 per Wikipedia.",
+    "Whether the Radisson Blu El Cel rooftop is open to non-guests in November not found.",
+    "Lat/lng are from Wikipedia's coordinates (41°24'13\"N 2°10'28\"E); the official page's coordinate text is garbled."
+  ]
+}

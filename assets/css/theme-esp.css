@@ -1,0 +1,80 @@
+/*
+  Theme: esp — a PDS theme for the Spain trip companion (Madrid, Barcelona, San Sebastián).
+  The same system as wsp: the ramp slots keep their names, the values move to Spain. Lime-washed cream for
+  the paper, Mediterranean blue in the teal slot, saffron in the gold slot, Madrid brick in the orange slot,
+  Rioja wine in the pink slot, Basque olive in the green slot, the same brown-black line. One tone (light).
+
+  PDS rules: a theme may change the global tier (ramps, faces, depth, radius) and re-point semantic
+  bindings. Components keep their anatomy and use only --pds-* tokens. Nothing here adds a component.
+*/
+:root {
+  /* ---------- Spain ramp (slot names from the system, values from the trip) ---------- */
+  --wsp-paper-5: #fcf6e6; --wsp-paper-10: #f7eedb; --wsp-paper-20: #f0e2c0; --wsp-paper-30: #e6d3a6; --wsp-paper-40: #d6bf8c;
+  --wsp-teal-20: #b3d3ea; --wsp-teal-30: #74afd9; --wsp-teal-40: #3d8cc6; --wsp-teal-50: #1f6ca6; --wsp-teal-60: #175a8c; --wsp-teal-70: #114770; --wsp-teal-80: #0c3656; --wsp-teal-90: #07263f;
+  --wsp-gold-30: #f4c650; --wsp-gold-40: #e7ab24; --wsp-gold-50: #c3880c; --wsp-gold-60: #8c6006;
+  --wsp-orange-40: #dc7a4e; --wsp-orange-50: #bd552a; --wsp-orange-60: #933f1b;
+  --wsp-ink-50: #8a7458; --wsp-ink-60: #6a553e; --wsp-ink-70: #4a3828; --wsp-ink-80: #352616; --wsp-ink-90: #241709;
+  --wsp-green-40: #95b061; --wsp-green-50: #5d8041; --wsp-green-60: #3e5c2a;
+  --wsp-pink-20: #f1cdd0; --wsp-pink-30: #dc8f97; --wsp-pink-50: #a8323f; --wsp-pink-60: #7c1f2b;
+
+  /* ---------- Type: faces stay, the display face leans harder on WONK ---------- */
+  --pds-display-axes: "SOFT" 100, "WONK" 1;
+
+  /* ---------- Semantic re-pointing (light, the only tone) ---------- */
+  color-scheme: light;
+  --pds-bg-canvas: var(--wsp-paper-20);
+  --pds-bg-card: var(--wsp-paper-5);
+  --pds-bg-surface: var(--wsp-paper-10);
+  --pds-bg-sunken: var(--wsp-paper-30);
+  --pds-bg-bar: var(--wsp-paper-5);
+  --pds-bg-band: var(--wsp-teal-80);
+  --pds-bg-selected: var(--wsp-paper-30);
+
+  --pds-border-subtle: var(--wsp-paper-40);
+  --pds-border-control: var(--wsp-ink-50);
+  --pds-border-strong: var(--wsp-ink-80);
+
+  --pds-text-default: var(--wsp-ink-70);
+  --pds-text-muted: var(--wsp-ink-60);
+  --pds-text-strong: var(--wsp-ink-90);
+  --pds-text-heading: var(--wsp-teal-70);
+  --pds-text-eyebrow: var(--wsp-orange-60);
+  --pds-text-link: var(--wsp-teal-60);
+  --pds-text-on-band: var(--wsp-paper-5);
+  --pds-text-on-band-muted: var(--wsp-teal-20);
+  --pds-text-mark-on-band: var(--wsp-gold-30);
+
+  --pds-action-bg: var(--wsp-teal-60);
+  --pds-action-text: var(--wsp-paper-5);
+  --pds-action-secondary-bg: var(--wsp-paper-5);
+  --pds-action-secondary-text: var(--wsp-ink-90);
+  --pds-action-outline: var(--wsp-ink-80);
+
+  --pds-mark: var(--wsp-gold-50);
+  --pds-focus-ring: var(--wsp-teal-50);
+  --pds-focus-halo: var(--wsp-teal-20);
+
+  --pds-status-open-bg: #e3efdf; --pds-status-open-text: var(--wsp-green-60); --pds-status-open-dot: var(--wsp-green-50);
+  --pds-status-closed-bg: #f6ddd6; --pds-status-closed-text: var(--wsp-orange-60); --pds-status-closed-dot: var(--wsp-orange-50);
+  --pds-status-soon-bg: var(--wsp-paper-20); --pds-status-soon-text: var(--wsp-gold-60); --pds-status-soon-dot: var(--wsp-gold-40);
+  --pds-notice-bg: var(--wsp-paper-20); --pds-notice-edge: var(--wsp-gold-40); --pds-notice-text: var(--wsp-ink-80);
+  --pds-map-pin-edge: var(--wsp-paper-5);
+  --pds-scrim: rgba(5, 42, 51, .6);
+
+  /* ---------- Category colors (map pins, chips, tiles) ---------- */
+  --wsp-cat-food: var(--wsp-gold-50);      --wsp-cat-food-ink: var(--wsp-ink-90);
+  --wsp-cat-roast: var(--wsp-orange-60);   --wsp-cat-roast-ink: var(--wsp-paper-5);
+  --wsp-cat-music: var(--wsp-pink-60);     --wsp-cat-music-ink: var(--wsp-paper-5);
+  --wsp-cat-art: var(--wsp-teal-60);       --wsp-cat-art-ink: var(--wsp-paper-5);
+  --wsp-cat-cava: var(--wsp-gold-30);      --wsp-cat-cava-ink: var(--wsp-ink-90);
+  --wsp-cat-bar: var(--wsp-orange-50);     --wsp-cat-bar-ink: var(--wsp-paper-5);
+  --wsp-cat-landmark: var(--wsp-green-60); --wsp-cat-landmark-ink: var(--wsp-paper-5);
+
+  /* ---------- Poster chrome ---------- */
+  --wsp-misreg: var(--wsp-teal-40);           /* the second pass that didn't quite line up */
+  --wsp-misreg-offset: 4px;
+  --wsp-grid-gap: 14px;
+  --wsp-page-margin: 16px;
+  --wsp-max: 1280px;
+  --pds-radius: 0;
+}

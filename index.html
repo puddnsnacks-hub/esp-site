@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>España · Madrid, Barcelona, San Sebastián</title>
+<meta name="description" content="Madrid, Barcelona and San Sebastián, Oct 28 to Nov 10, 2026: food, music and art each week, suckling pig at Botín, Cava country, and La Sagrada Família.">
+<meta name="theme-color" content="#114770">
+<meta property="og:title" content="España · Madrid, Barcelona, San Sebastián">
+<meta property="og:description" content="Food, music and art in three cities, suckling pig at Botín, Cava country and La Sagrada Família.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..900,100,1;1,9..144,400..900,100,1&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;600&family=Covered+By+Your+Grace&family=Francois+One&display=swap">
+<link rel="stylesheet" href="assets/css/leaflet.css">
+<link rel="stylesheet" href="assets/css/pds-tokens.css">
+<link rel="stylesheet" href="assets/css/theme-esp.css">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="stylesheet" href="assets/css/art-breaks.css">
+<link rel="stylesheet" href="assets/css/layer.css">
+<link rel="stylesheet" href="assets/css/reverse.css">
+<link rel="stylesheet" href="assets/css/timeline.css">
+<link rel="stylesheet" href="assets/css/esp.css?v=6">
+<script>document.documentElement.setAttribute("data-theme","light");</script>
+</head>
+<body>
+
+<header class="site-header hero2" id="top">
+  <div class="h2-print" aria-hidden="true"></div>
+  <div class="h2-stage">
+    <p class="h2-ghost h2-ghost-w" aria-hidden="true">España</p>
+    <h1 class="h2-title"><span class="h2-w">España</span> <span class="h2-mke">Oct 28 – Nov 10</span></h1>
+    <nav class="h2-days" aria-label="The three cities"><a class="h2-day" href="#scene-madrid" data-hero-go="madrid" data-city="madrid" data-from="2026-10-28" data-to="2026-11-01"><span class="h2-code" aria-hidden="true">MAD</span><span class="h2-date" aria-hidden="true">Oct 28</span><span class="visually-hidden">Madrid, from Oct 28</span><span class="visually-hidden h2-state"></span></a><a class="h2-day" href="#scene-barcelona" data-hero-go="barcelona" data-city="barcelona" data-from="2026-11-01" data-to="2026-11-05"><span class="h2-code" aria-hidden="true">BCN</span><span class="h2-date" aria-hidden="true">Nov 1</span><span class="visually-hidden">Barcelona, from Nov 1</span><span class="visually-hidden h2-state"></span></a><a class="h2-day" href="#scene-donostia" data-hero-go="donostia" data-city="donostia" data-from="2026-11-05" data-to="2026-11-10"><span class="h2-code" aria-hidden="true">EAS</span><span class="h2-date" aria-hidden="true">Nov 5</span><span class="visually-hidden">San Sebastián, from Nov 5</span><span class="visually-hidden h2-state"></span></a></nav>
+    <nav class="h2-go" aria-label="Featured"><a class="h2-btn h2-btn--1" href="#botin" data-hero-go="botin" data-hero-card="botin"><span>Suckling pig at Botín</span></a><a class="h2-btn h2-btn--2" href="#sagrada-history" data-hero-go="sagrada" data-hero-card="sagrada-history"><span>La Sagrada Família</span></a><a class="h2-btn h2-btn--3" href="#cava-tours" data-hero-go="cava" data-hero-card="cava-tours"><span>Cava country</span></a></nav>
+    <a class="temp-pill" href="#weather" id="temp-pill" data-hero-go="around" data-hero-card="weather">
+        <svg id="temp-icon" viewBox="0 0 24 24" aria-hidden="true"></svg>
+        <span class="t num" id="temp-now"></span>
+        <span class="c" id="temp-desc">Forecast</span>
+      </a>
+  </div>
+</header>
+
+<nav class="site-nav" aria-label="Sections">
+  <div class="inner">
+    <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="mega" aria-label="Menu" title="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3 6.5h18M3 12h18M3 17.5h18"/></svg>
+    </button>
+    <span class="next-up" id="next-up" aria-live="polite"></span>
+    <button class="star-filter" id="star-filter" aria-pressed="false" aria-label="Show only the cards you starred" title="Only starred cards"></button>
+  </div>
+  <div class="mega-scrim" id="mega-scrim" aria-hidden="true"></div>
+  <div class="mega" id="mega" role="dialog" aria-modal="true" aria-label="Menu" hidden>
+    <div class="mega-inner">
+      <div class="mega-top"><span class="mega-label">Menu</span><button class="mega-close" type="button" aria-label="Close the menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+      <ul class="mega-cats"><li><a class="mega-cat" href="#scene-home" data-chapter-link="home" style="--chip: var(--chip-home)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Hola</span><span class="mega-d">The note</span></a></li><li><a class="mega-cat" href="#scene-madrid" data-chapter-link="madrid" style="--chip: var(--chip-madrid)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Madrid</span><span class="mega-d">This week in Madrid</span></a></li><li><a class="mega-cat" href="#scene-botin" data-chapter-link="botin" style="--chip: var(--chip-botin)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Botín</span><span class="mega-d">Sobrino de Botín · since 1725, How it&#x27;s made, Other roasts</span></a></li><li><a class="mega-cat" href="#scene-barcelona" data-chapter-link="barcelona" style="--chip: var(--chip-barcelona)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Barcelona</span><span class="mega-d">This week in Barcelona</span></a></li><li><a class="mega-cat" href="#scene-sagrada" data-chapter-link="sagrada" style="--chip: var(--chip-sagrada)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">La Sagrada Família</span><span class="mega-d">The history, Why it matters, Antoni Gaudí, Tickets and hours, Mass</span></a></li><li><a class="mega-cat" href="#scene-cava" data-chapter-link="cava" style="--chip: var(--chip-cava)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Cava</span><span class="mega-d">A short history, Cellar tours, Taste in Barcelona</span></a></li><li><a class="mega-cat" href="#scene-donostia" data-chapter-link="donostia" style="--chip: var(--chip-donostia)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">San Sebastián</span><span class="mega-d">This week in San Sebastián</span></a></li><li><a class="mega-cat" href="#scene-around" data-chapter-link="around" style="--chip: var(--chip-around)"><span class="mega-chip" aria-hidden="true"></span><span class="mega-t">Getting around</span><span class="mega-d">The map, the weather</span></a></li></ul>
+      <ul class="mega-x"><li><a class="mega-xl" href="#top" data-x="top">Top of the page</a></li></ul>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="grid">
+    <div class="scene cat scene--letter" id="scene-home" data-chapter="home" data-title="Hola" data-side="right">
+    <div class="scene-head letter-head"><h2 class="letter-title" id="hola-h">Hola</h2></div>
+    <section class="w w--updates" id="updates" data-widget="updates" aria-labelledby="hola-h" data-nocollapse>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    </div>
+    <div class="scene scene--stars" id="scene-stars" data-chapter="stars" data-side="left">
+    <div class="scene-head"><span class="strip strip--title">Starred</span></div>
+    <div class="stars-note" id="stars-note"></div>
+    </div>
+    <div class="space space--gap" data-space="G0" data-next="madrid" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-teal-80)"></div>
+    <div class="scene cat" id="scene-madrid" data-chapter="madrid" data-title="Madrid" data-side="left">
+    <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="madrid"><span class="strip strip--title">Madrid</span><span class="cat-desc">Oct 28 – Nov 1 · food, music and art</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
+    <section class="w" id="madrid-week" data-widget="madrid-week" aria-labelledby="madrid-week-h">
+      <header><div class="t"><span class="eyebrow">This week in Madrid</span><h2 id="madrid-week-h">Four nights in the capital</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    </div>
+    <div class="space space--gap" data-space="G1" data-next="botin" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-paper-10)"></div>
+    <div class="scene cat" id="scene-botin" data-chapter="botin" data-title="Botín" data-side="right">
+    <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="botin"><span class="strip strip--title">Botín</span><span class="cat-desc">Suckling pig at the oldest restaurant in the world, and where else to find it</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
+    <section class="w" id="botin" data-widget="botin" aria-labelledby="botin-h">
+      <header><div class="t"><span class="eyebrow">Sobrino de Botín · since 1725</span><h2 id="botin-h">Table for 300 years</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    <section class="w w--half" id="cochinillo" data-widget="cochinillo" aria-labelledby="cochinillo-h">
+      <header><div class="t"><span class="eyebrow">How it&#x27;s made</span><h2 id="cochinillo-h">Cut with a plate</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    <section class="w" id="roasts" data-widget="roasts" aria-labelledby="roasts-h">
+      <header><div class="t"><span class="eyebrow">Other roasts</span><h2 id="roasts-h">Same fire, other tables</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    </div>
+    <div class="space space--gap" data-space="G2" data-next="barcelona" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-gold-40)"></div>
+    <div class="scene cat" id="scene-barcelona" data-chapter="barcelona" data-title="Barcelona" data-side="left">
+    <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="barcelona"><span class="strip strip--title">Barcelona</span><span class="cat-desc">Nov 1 – 5 · food, music and art</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
+    <section class="w" id="barcelona-week" data-widget="barcelona-week" aria-labelledby="barcelona-week-h">
+      <header><div class="t"><span class="eyebrow">This week in Barcelona</span><h2 id="barcelona-week-h">Four nights by the sea</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    </div>
+    <div class="space space--gap" data-space="G3" data-next="sagrada" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-ink-80)"></div>
+    <div class="scene cat" id="scene-sagrada" data-chapter="sagrada" data-title="La Sagrada Família" data-side="right">
+    <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="sagrada"><span class="strip strip--title">La Sagrada Família</span><span class="cat-desc">The history, the building, the architect, tickets and Mass</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
+    <section class="w" id="sagrada-history" data-widget="sagrada-history" aria-labelledby="sagrada-history-h">
+      <header><div class="t"><span class="eyebrow">The history</span><h2 id="sagrada-history-h">Under construction since 1882</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    <section class="w" id="sagrada-arch" data-widget="sagrada-arch" aria-labelledby="sagrada-arch-h">
+      <header><div class="t"><span class="eyebrow">Why it matters</span><h2 id="sagrada-arch-h">A forest of stone</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    <section class="w" id="gaudi" data-widget="gaudi" aria-labelledby="gaudi-h">
+      <header><div class="t"><span class="eyebrow">Antoni Gaudí</span><h2 id="gaudi-h">God&#x27;s architect</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    <section class="w" id="sagrada-visit" data-widget="sagrada-visit" aria-labelledby="sagrada-visit-h">
+      <header><div class="t"><span class="eyebrow">Tickets and hours</span><h2 id="sagrada-visit-h">Plan the visit</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    <section class="w" id="sagrada-mass" data-widget="sagrada-mass" aria-labelledby="sagrada-mass-h">
+      <header><div class="t"><span class="eyebrow">Mass</span><h2 id="sagrada-mass-h">Never miss a Sunday</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    </div>
+    <div class="space space--gap" data-space="G4" data-next="cava" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-teal-30)"></div>
+    <div class="scene cat" id="scene-cava" data-chapter="cava" data-title="Cava" data-side="left">
+    <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="cava"><span class="strip strip--title">Cava</span><span class="cat-desc">A short history, the Penedès, cellar tours and where to taste in town</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
+    <section class="w" id="cava-story" data-widget="cava-story" aria-labelledby="cava-story-h">
+      <header><div class="t"><span class="eyebrow">A short history</span><h2 id="cava-story-h">Named for the cellar</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    <section class="w" id="cava-tours" data-widget="cava-tours" aria-labelledby="cava-tours-h">
+      <header><div class="t"><span class="eyebrow">Cellar tours</span><h2 id="cava-tours-h">Down in the cellars</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    <section class="w" id="cava-bars" data-widget="cava-bars" aria-labelledby="cava-bars-h">
+      <header><div class="t"><span class="eyebrow">Taste in Barcelona</span><h2 id="cava-bars-h">No train required</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    </div>
+    <div class="space space--gap" data-space="G5" data-next="donostia" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-paper-5)"></div>
+    <div class="scene cat" id="scene-donostia" data-chapter="donostia" data-title="San Sebastián" data-side="right">
+    <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="donostia"><span class="strip strip--title">San Sebastián</span><span class="cat-desc">Nov 5 – 10 · food, music and art</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
+    <section class="w" id="donostia-week" data-widget="donostia-week" aria-labelledby="donostia-week-h">
+      <header><div class="t"><span class="eyebrow">This week in San Sebastián</span><h2 id="donostia-week-h">Five nights on the bay</h2></div></header>
+      <div class="body"><div class="pending-note">Loading</div></div>
+    </section>
+    </div>
+    <div class="space space--gap" data-space="G6" data-next="around" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-green-60)"></div>
+    <div class="scene cat" id="scene-around" data-chapter="around" data-title="Getting around" data-side="left">
+    <div class="scene-head"><button class="cat-btn" type="button" aria-expanded="false" data-chapter-toggle="around"><span class="strip strip--title">Getting around</span><span class="cat-desc">The map and the weather</span><span class="cat-chev" aria-hidden="true"><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></button></div>
+    <section class="w" id="map" data-widget="map" aria-labelledby="map-h">
+      <header><div class="t"><span class="eyebrow">The map</span><h2 id="map-h">One map for the trip</h2></div><div class="act"><button class="btn btn--sm" id="locate-btn">Where am I?</button></div></header>
+      <div class="body flush">
+        <div class="map-cities" id="map-cities" role="group" aria-label="Show a city"><button class="chip" type="button" data-city="madrid" aria-pressed="false">Madrid</button><button class="chip" type="button" data-city="segovia" aria-pressed="false">Segovia</button><button class="chip" type="button" data-city="barcelona" aria-pressed="false">Barcelona</button><button class="chip" type="button" data-city="penedes" aria-pressed="false">Penedès</button><button class="chip" type="button" data-city="donostia" aria-pressed="false">San Sebastián</button></div>
+        <div class="map-filters" id="map-filters" role="group" aria-label="Filter pins"></div>
+        <div class="map-wrap" id="map-wrap"><div id="leaflet-map" aria-label="Map of every place in the trip"></div><button class="map-lock" id="map-lock" aria-pressed="true"><span>Tap to unlock the map</span></button></div>
+        <p class="caption map-note">Pins sit at each street address. The address in each card is the one to trust.</p>
+      </div>
+    </section>
+    <section class="w w--half" id="weather" data-widget="weather" aria-labelledby="weather-h">
+      <header><div class="t"><span class="eyebrow">Weather</span><h2 id="weather-h">Today's sky</h2></div></header>
+      <div class="body"><div class="pending-note">Reading the forecast</div></div>
+    </section>
+    </div>
+    <div class="space space--gap space--end" data-space="G9" data-next="end" data-ground="flat" aria-hidden="true" style="--sg: var(--wsp-teal-90)"></div>
+  </div>
+</main>
+
+<footer class="ft"><div class="ft-in">
+  <div class="ft-words"><p class="ft-url">esp.puddnsnacks.com</p>
+  <p class="ft-note">Hours, programs and prices change. Tap through to the place before you go.</p></div>
+</div></footer>
+
+<div class="welcome" id="welcome" hidden role="dialog" aria-modal="true" aria-labelledby="welcome-h">
+  <div class="welcome-card">
+    <div class="welcome-body" id="welcome-body"></div>
+    <div class="welcome-nav"><button class="btn" id="welcome-skip">Skip</button><span class="welcome-dots" id="welcome-dots"></span><button class="btn btn--primary" id="welcome-next">Next</button></div>
+  </div>
+</div>
+<a class="to-top" id="to-top" href="#top" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg><span>Top</span></a>
+<div class="coach" id="coach" hidden>
+  <svg class="coach-arrow" id="coach-arrow" aria-hidden="true"></svg>
+  <div class="coach-note" id="coach-note"><p>Tap the star on a card to keep it. The star up top shows just the ones you kept.</p><button class="btn btn--sm" type="button" id="coach-ok">Got it</button></div>
+</div>
+<div class="scrim" id="scrim"></div>
+<aside class="sheet" id="sheet" aria-hidden="true" role="dialog" aria-labelledby="sheet-title"><button class="close" id="sheet-close" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg></button><div id="sheet-body"></div></aside>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="assets/js/icons.js"></script>
+<script src="assets/js/weather.js?v=3"></script>
+<script src="assets/js/map.js?v=3"></script>
+<script src="assets/js/shell.js?v=4"></script>
+<script src="assets/js/app.js?v=3"></script>
+</body>
+</html>

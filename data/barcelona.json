@@ -1,0 +1,551 @@
+{
+  "city": "Barcelona",
+  "dates": "2026-11-01 to 2026-11-05",
+  "checked_at": "2026-10-27",
+  "items": [
+    {
+      "id": "castanyada-chestnut-stalls",
+      "name": "La Castanyada: roasted chestnut and sweet potato stalls",
+      "category": "food",
+      "dates": "Nov 1, 2026 (stalls run through the season)",
+      "times": "not found (varies by stall)",
+      "venue": "Street stalls citywide (castanyeres)",
+      "address": "Citywide",
+      "neighborhood": "Citywide",
+      "lat": null,
+      "lng": null,
+      "price": "not found",
+      "booking_url": null,
+      "why_go": "All Saints Day is when Barcelona eats hot chestnuts in paper cones and roasted sweet potatoes.",
+      "notes": "The city says 84 chestnut stalls are set up this year. Chestnuts come wrapped in paper cones (paperines); sweet potatoes (moniatos) are sold roasted. Nov 1 is the day for chestnuts and panellets; Nov 2 is the Day of the Dead (cemetery visits). Coordinates left blank because stalls are spread across the city.",
+      "sources": [
+        "https://www.barcelona.cat/culturapopular/ca/festes-i-tradicions/tots-sants"
+      ]
+    },
+    {
+      "id": "panellets-escriba-rambla",
+      "name": "Panellets at Escribà",
+      "category": "food",
+      "dates": "Nov 1-5, 2026 (panellet season peaks Nov 1)",
+      "times": "not found",
+      "venue": "Escribà (La Rambla shop)",
+      "address": "La Rambla, 83, 08002 Barcelona (second shop: Gran Via de les Corts Catalanes, 546)",
+      "neighborhood": "Ciutat Vella (La Rambla)",
+      "lat": 41.3815,
+      "lng": 2.1724,
+      "price": "€2.20 each; box of 6 €12 (2026 season)",
+      "booking_url": null,
+      "why_go": "A famous old pastry shop and an easy place to try panellets, the almond-and-sweet-potato sweets of All Saints.",
+      "notes": "Other 2026 picks from the same guide: Brunells, Carrer de la Princesa 22, El Born (€74/kg, closed Mondays); Pastisseria Hofmann, Carrer dels Flassaders 44, El Born (€3 each, box of 7 pine-nut panellets €19); Pastisseria Faixat, Muntaner 159 (€66/kg). Shop hours on Sun Nov 1 not confirmed: bakeries may open on Sundays and holidays under city rules.",
+      "sources": [
+        "https://barcelonaurbana.com/blog/donde-comprar-panellets-barcelona",
+        "https://barcelonaurbana.com/ca/blog/botigues-obertes-diumenge-barcelona"
+      ]
+    },
+    {
+      "id": "mercat-boqueria",
+      "name": "Mercat de la Boqueria",
+      "category": "food",
+      "dates": "Mon Nov 2 - Thu Nov 5, 2026 (closed Sun Nov 1)",
+      "times": "Mon-Sat 08:00-20:30",
+      "venue": "Mercat de la Boqueria",
+      "address": "La Rambla, 89, 08001 Barcelona",
+      "neighborhood": "El Raval",
+      "lat": 41.3818,
+      "lng": 2.1716,
+      "price": "Free entry",
+      "booking_url": null,
+      "why_go": "Barcelona's best-known food market, full of ham, seafood, fruit and counter bars.",
+      "notes": "Closed on Sundays, so closed on Nov 1. Go early on weekdays; pickpocket risk peaks about 11:00-14:00. Individual stall hours vary.",
+      "sources": [
+        "https://barcelonaurbana.com/ca/blog/mercat-de-la-boqueria-que-hi-trobes",
+        "https://barcelonaurbana.com/en/blog/barcelona-pickpockets-zones-tourist-guide"
+      ]
+    },
+    {
+      "id": "mercat-santa-caterina",
+      "name": "Mercat de Santa Caterina",
+      "category": "food",
+      "dates": "Mon Nov 2 - Thu Nov 5, 2026 (closed Sun Nov 1)",
+      "times": "Mon and Wed 07:30-15:30; Tue, Thu and Fri 07:30-20:30; Sat 07:30-15:30",
+      "venue": "Mercat de Santa Caterina",
+      "address": "Av. Francesc Cambó, 16, 08003 Barcelona",
+      "neighborhood": "Sant Pere, Santa Caterina i la Ribera (El Born)",
+      "lat": 41.3863,
+      "lng": 2.1786,
+      "price": "Free entry",
+      "booking_url": null,
+      "why_go": "A calmer, local market under a famous wavy, colorful roof.",
+      "notes": "Hours are the Oct 1 - Jun 30 schedule. Closes at 15:30 on Monday Nov 2 and Wednesday Nov 4. Nearest metro: L4 Jaume I.",
+      "sources": [
+        "https://barcelonaurbana.com/ca/llocs/mercat-de-santa-caterina"
+      ]
+    },
+    {
+      "id": "mercat-sant-antoni-dominical",
+      "name": "Mercat de Sant Antoni and Sunday book market",
+      "category": "food",
+      "dates": "Sun Nov 1 (Dominical book market); Mon Nov 2 - Thu Nov 5 (food market)",
+      "times": "Food stalls Mon-Sat 08:00-20:30; Sunday book market 08:30-14:00",
+      "venue": "Mercat de Sant Antoni",
+      "address": "Carrer del Comte d'Urgell, 1, 08011 Barcelona",
+      "neighborhood": "Sant Antoni (Eixample)",
+      "lat": 41.379,
+      "lng": 2.1623,
+      "price": "Free entry",
+      "booking_url": null,
+      "why_go": "A restored iron market hall with food on weekdays and a classic secondhand book and collectibles market on Sunday mornings.",
+      "notes": "The city says the Sunday market also opens on holiday Sundays, so it should run on Nov 1. The food stalls do not list Sunday hours. The secondhand Encants stalls close on Tuesdays. Metro: L2 Sant Antoni.",
+      "sources": [
+        "https://ajuntament.barcelona.cat/mercats/en/non-food-markets/mercat-dominical-de-sant-antoni-96058202955",
+        "https://barcelonaurbana.com/ca/llocs/mercat-de-sant-antoni"
+      ]
+    },
+    {
+      "id": "vermut-quimet-quimet",
+      "name": "Vermut and montaditos at Quimet & Quimet",
+      "category": "food",
+      "dates": "Mon Nov 2 - Thu Nov 5, 2026 (closed Sun Nov 1)",
+      "times": "Mon-Fri 12:00-16:00 and 18:00-22:30",
+      "venue": "Quimet & Quimet",
+      "address": "Carrer del Poeta Cabanyes, 25, 08004 Barcelona",
+      "neighborhood": "Poble Sec",
+      "lat": 41.3738,
+      "lng": 2.1658,
+      "price": "Mid-range; exact prices not found. Barcelona vermut runs about €2.50-4.50 in old bodegas, €4-7 in specialist bars.",
+      "booking_url": null,
+      "why_go": "A tiny standing-room family bodega from 1914, famous for house vermut and stacked montaditos.",
+      "notes": "No reservations; arrive before 1pm or before 8pm to avoid a queue. Closed weekends. Vermut hour in Barcelona is roughly noon to 2pm before lunch.",
+      "sources": [
+        "https://mesprestiges.com/en/barcelona/places/quimet-i-quimet",
+        "https://barcelonaurbana.com/en/blog/vermouth-barcelona-guide"
+      ]
+    },
+    {
+      "id": "cook-and-taste-paella-class",
+      "name": "Cook & Taste paella class with market tour",
+      "category": "food",
+      "dates": "Bookable Nov 2-5, 2026 (market tour Tue-Sat mornings, so Nov 3-5)",
+      "times": "not found (half-day; morning slot, plus a Friday evening session)",
+      "venue": "Cook & Taste",
+      "address": "Carrer del Paradís, 3, 08002 Barcelona",
+      "neighborhood": "Barri Gòtic",
+      "lat": 41.3836,
+      "lng": 2.1771,
+      "price": "Class €70-75 per person (page shows both); optional market tour €12-13",
+      "booking_url": "https://cookandtaste.net/en/cooking-classes-tours/half-day-cooking-class-market-tour-barcelona#reserva",
+      "why_go": "A hands-on class where you cook tapas, paella and dessert, then eat it with local wine.",
+      "notes": "Market tour goes to La Boqueria or Santa Caterina and can only be added to a class. The paella type (seafood, vegetarian or chicken) depends on the day. Diet needs handled with notice. Phone +34 93 302 13 20.",
+      "sources": [
+        "https://cookandtaste.net/en/cooking-classes-tours/half-day-cooking-class-market-tour-barcelona",
+        "https://www.cookandtaste.net/en/"
+      ]
+    },
+    {
+      "id": "jazz-hermetos-mothership-jamboree",
+      "name": "Hermeto's Mothership (Barcelona Jazz Festival)",
+      "category": "music",
+      "dates": "Sun Nov 1, 2026",
+      "times": "19:00 and 20:30",
+      "venue": "Jamboree (Sala 1)",
+      "address": "Plaça Reial, 17, 08002 Barcelona",
+      "neighborhood": "Barri Gòtic",
+      "lat": 41.38,
+      "lng": 2.1752,
+      "price": "€27",
+      "booking_url": "https://tickets.oneboxtds.com/jamboree/select/2813366",
+      "why_go": "Hermeto Pascoal's longtime band plays an all-Hermeto tribute in a small cellar club.",
+      "notes": "Second show link: https://tickets.oneboxtds.com/jamboree/select/2813367. Jamboree's agenda marked its Nov 1-5 shows as sold out when checked; confirm. Other Jamboree shows: Jam Session Mon Nov 2, 19:00, €12; Benjamin Herman Trio ft. Tomoaki Baba Tue Nov 3, 19:00/20:30, €24; Julieta Rada Thu Nov 5, €20. The festival runs Sep 29, 2026 to Apr 3, 2027.",
+      "sources": [
+        "https://jazz.barcelona/es/concierto/hermetos-mothership/",
+        "https://www.jamboreejazz.com/agenda/",
+        "https://jazz.barcelona/es/conciertos/",
+        "https://thisisbarcelona.com/agenda/barcelona-jazz-festival"
+      ]
+    },
+    {
+      "id": "gran-gala-flamenco-palau",
+      "name": "Gran Gala Flamenco at the Palau de la Música",
+      "category": "music",
+      "dates": "Sun Nov 1, 2026 (also Nov 8, 10, 15, 17, 22, 29)",
+      "times": "21:30",
+      "venue": "Palau de la Música Catalana (Concert Hall)",
+      "address": "Carrer Palau de la Música, 4-6, 08003 Barcelona",
+      "neighborhood": "Sant Pere (near El Born)",
+      "lat": 41.3875,
+      "lng": 2.1753,
+      "price": "€35-75",
+      "booking_url": "https://bcnyf-palaumusica.shop.secutix.com/selection/event/seat?lang=en&perfId=10229509638689&productId=10229504101530",
+      "why_go": "Flamenco on the stage of a Modernista concert hall with a stained-glass skylight.",
+      "notes": "Only Nov 1 falls in the Nov 1-5 window.",
+      "sources": [
+        "https://www.palaumusica.cat/en/gran-gala-flamenco_927626"
+      ]
+    },
+    {
+      "id": "jazz-nate-smith-apolo",
+      "name": "Nate Smith (Barcelona Jazz Festival)",
+      "category": "music",
+      "dates": "Mon Nov 2, 2026",
+      "times": "20:30",
+      "venue": "Sala Apolo",
+      "address": "Carrer Nou de la Rambla, 111, 08004 Barcelona",
+      "neighborhood": "Poble Sec",
+      "lat": 41.3744,
+      "lng": 2.1697,
+      "price": "not found",
+      "booking_url": "https://tickets.oneboxtds.com/jazzbarcelona/select/2857239?hl=es-ES",
+      "why_go": "A top modern jazz drummer mixes jazz with funk and soul in a classic old dance hall.",
+      "notes": "Festival debut as a leader. With Julian J3PO Pollack, CARRTOONS and Hailey Niswanger.",
+      "sources": [
+        "https://jazz.barcelona/es/concierto/nate-smith/",
+        "https://jazz.barcelona/es/conciertos/",
+        "https://www.barcelona-tickets.com/barcelona-jazz-festival/venues"
+      ]
+    },
+    {
+      "id": "liceu-capuleti-montecchi",
+      "name": "Bellini's I Capuleti e i Montecchi at the Liceu",
+      "category": "music",
+      "dates": "Mon Nov 2 and Thu Nov 5, 2026 (run Oct 30 - Nov 12)",
+      "times": "19:30",
+      "venue": "Gran Teatre del Liceu",
+      "address": "La Rambla, 51-59, 08002 Barcelona",
+      "neighborhood": "Ciutat Vella (La Rambla)",
+      "lat": 41.3807,
+      "lng": 2.1734,
+      "price": "€15-363.60 (Nov 2 zones; Zone 7 €30, Zone 8 €15)",
+      "booking_url": "https://liceubarcelona.koobin.com/ca/i-capuleti-e-i-montecchi-20261102-1930",
+      "why_go": "Bel canto Romeo and Juliet with Lisette Oropesa in Barcelona's grand opera house.",
+      "notes": "Staged production by Allex Aguilera. Nov 5 link: https://liceubarcelona.koobin.com/ca/i-capuleti-e-i-montecchi-20261105-1930. Cast alternates (Marina Monzó and Caterina Piva in the main roles on some nights); which nights each sings is not stated. No show Nov 1, 3 or 4.",
+      "sources": [
+        "https://www.liceubarcelona.cat/en/capuleti-montecchi",
+        "https://liceubarcelona.koobin.com/ca/i-capuleti-e-i-montecchi-20261102-1930",
+        "https://www.liceubarcelona.cat/en/noticies/capuleti-montecchi-lisette-oropesa-raffaella-lupinacci"
+      ]
+    },
+    {
+      "id": "jazz-branford-marsalis-dianne-reeves",
+      "name": "Branford Marsalis Quartet and Dianne Reeves (Barcelona Jazz Festival)",
+      "category": "music",
+      "dates": "Tue Nov 3, 2026",
+      "times": "20:30",
+      "venue": "Palau de la Música Catalana",
+      "address": "Carrer Palau de la Música, 4-6, 08003 Barcelona",
+      "neighborhood": "Sant Pere (near El Born)",
+      "lat": 41.3875,
+      "lng": 2.1753,
+      "price": "not found",
+      "booking_url": "https://tickets.oneboxtds.com/jazzbarcelona/select/2715876?hl=ca-ES",
+      "why_go": "Two jazz greats share a bill in one of Europe's most beautiful concert halls.",
+      "notes": "Discounted member tickets are sold out; general availability not confirmed.",
+      "sources": [
+        "https://jazz.barcelona/es/concierto/branford-marsalis-quartet-dianne-reeves/",
+        "https://jazz.barcelona/es/conciertos/"
+      ]
+    },
+    {
+      "id": "jazz-sant-andreu-jazz-band-all-stars",
+      "name": "Sant Andreu Jazz Band All-Stars (Barcelona Jazz Festival)",
+      "category": "music",
+      "dates": "Wed Nov 4, 2026",
+      "times": "20:15",
+      "venue": "La Paloma",
+      "address": "Carrer del Tigre, 27, Barcelona",
+      "neighborhood": "El Raval",
+      "lat": 41.384,
+      "lng": 2.165,
+      "price": "not found",
+      "booking_url": "https://tickets.oneboxtds.com/jazzbarcelona/select/2764654?hl=es-ES",
+      "why_go": "Barcelona's famous youth jazz band marks 20 years with Sinatra and Armstrong songs in a 1900s dance hall.",
+      "notes": "Directed by Joan Chamorro, with singers Edu Ferrer and Ricard Gili. Listing showed tickets as sold out; check for returns.",
+      "sources": [
+        "https://jazz.barcelona/es/concierto/sant-andreu-jazz-band-all-stars/",
+        "https://dice.fm/venue/la-paloma-88g2"
+      ]
+    },
+    {
+      "id": "kid-francescoli-razzmatazz",
+      "name": "Kid Francescoli",
+      "category": "music",
+      "dates": "Wed Nov 4, 2026",
+      "times": "Doors 20:30",
+      "venue": "Razzmatazz 2",
+      "address": "Carrer de Pamplona, 88, 08018 Barcelona",
+      "neighborhood": "Poblenou",
+      "lat": 41.3977,
+      "lng": 2.191,
+      "price": "From €32.40",
+      "booking_url": "https://www.salarazzmatazz.com/",
+      "why_go": "Dreamy French electro-pop in Barcelona's best-known indie club.",
+      "notes": "Tickets via Ticketmaster ES. Other Razzmatazz shows that week: ElGrandeToto (Nov 3), Michael Schenker MSG (Nov 5). Feeble Little Horse on Nov 5 is cancelled.",
+      "sources": [
+        "https://www.songkick.com/es/concerts/43131602-kid-francescoli-at-razzmatazz-2",
+        "https://www.salarazzmatazz.com/"
+      ]
+    },
+    {
+      "id": "jazz-kurt-rosenwinkel-remedy",
+      "name": "Kurt Rosenwinkel: The Remedy (Barcelona Jazz Festival)",
+      "category": "music",
+      "dates": "Thu Nov 5, 2026",
+      "times": "20:30 (masterclass 16:30)",
+      "venue": "Conservatori del Liceu",
+      "address": "Carrer Nou de la Rambla, 88, 08001 Barcelona",
+      "neighborhood": "El Raval",
+      "lat": 41.3755,
+      "lng": 2.1712,
+      "price": "not found",
+      "booking_url": "https://tickets.oneboxtds.com/jazzbarcelona/select/2885817?hl=ca-ES",
+      "why_go": "The guitarist reunites his 2006 Village Vanguard quintet to revisit a modern jazz classic.",
+      "notes": "With Seamus Blake, Aaron Goldberg, Joe Martin and Kendrick Scott. A concert ticket gives free entry to his masterclass the same day at 16:30 (use the code on the ticket).",
+      "sources": [
+        "https://jazz.barcelona/es/concierto/kurt-rosenwinkel-the-remedy/",
+        "https://www.barcelona-tickets.com/barcelona-jazz-festival/venues"
+      ]
+    },
+    {
+      "id": "flamenco-tablao-cordobes",
+      "name": "Flamenco at Tablao Cordobés",
+      "category": "music",
+      "dates": "Daily, Nov 1-5, 2026",
+      "times": "Tapas + show: 16:30 (show 17:40). Dinner + show: 18:00 (show 19:15), 19:30 (show 21:00), 21:15 (show 22:30)",
+      "venue": "Tablao Cordobés",
+      "address": "La Rambla, 35, 08002 Barcelona",
+      "neighborhood": "Ciutat Vella (La Rambla)",
+      "lat": 41.379,
+      "lng": 2.1748,
+      "price": "not found in euros on the official site",
+      "booking_url": "https://tickets.tablaocordobes.com/",
+      "why_go": "A long-running flamenco tablao with a 70-minute show close to the dancers.",
+      "notes": "Times can vary by season; check the live calendar. Phone +34 933 17 57 11.",
+      "sources": [
+        "https://www.tablaocordobes.es/schedules/",
+        "https://tablaocordobes.es/location-and-contact/",
+        "https://www.civitatis.com/es/barcelona/espectaculo-tablao-flamenco-cordobes/"
+      ]
+    },
+    {
+      "id": "flamenco-los-tarantos",
+      "name": "Flamenco at Los Tarantos",
+      "category": "music",
+      "dates": "Daily, Nov 1-5, 2026",
+      "times": "18:30, 19:30, 20:30 (40 minutes)",
+      "venue": "Los Tarantos",
+      "address": "Plaça Reial, 17, 08002 Barcelona",
+      "neighborhood": "Barri Gòtic",
+      "lat": 41.3801,
+      "lng": 2.1753,
+      "price": "€25",
+      "booking_url": "https://thisisbarcelona.com/tickets/flamenco-los-tarantos/",
+      "why_go": "A short, affordable flamenco show in a historic basement on Plaça Reial.",
+      "notes": "Seats are first come, first served. Options with a drink or drink plus tapas are offered; it is not clear if €25 covers all options. Metro L3 Liceu.",
+      "sources": [
+        "https://thisisbarcelona.com/tickets/flamenco-los-tarantos/"
+      ]
+    },
+    {
+      "id": "museu-picasso",
+      "name": "Museu Picasso",
+      "category": "art",
+      "dates": "Sun Nov 1 (free), Tue Nov 3 - Thu Nov 5 (Thu Nov 5 free 16:00-19:00); closed Mon Nov 2",
+      "times": "Tue-Sun 10:00-19:00",
+      "venue": "Museu Picasso",
+      "address": "Carrer de Montcada, 15-23, 08003 Barcelona",
+      "neighborhood": "El Born",
+      "lat": 41.3852,
+      "lng": 2.1808,
+      "price": "€12 online, €13 at the door; reduced €7; under 18 free",
+      "booking_url": "https://museupicassobcn.cat/en/plan-your-visit/buy-tickets-and-opening-hours",
+      "why_go": "The best place to see young Picasso, set in medieval palaces in El Born.",
+      "notes": "Free on the first Sunday of the month (Nov 1) and Thursdays 16:00-19:00, but you must book. Free bookings open four days ahead at 10:00. Nov 1 is not on its list of closed days. No temporary show confirmed for these dates.",
+      "sources": [
+        "https://museupicassobcn.cat/en/plan-your-visit/buy-tickets-and-opening-hours"
+      ]
+    },
+    {
+      "id": "mnac-museu-nacional",
+      "name": "MNAC (Museu Nacional d'Art de Catalunya)",
+      "category": "art",
+      "dates": "Sun Nov 1 (free), Tue Nov 3 - Thu Nov 5; closed Mon Nov 2",
+      "times": "Oct-Apr: Tue-Sat 10:00-18:00; Sun and holidays 10:00-15:00",
+      "venue": "Palau Nacional",
+      "address": "Palau Nacional, Parc de Montjuïc, 08038 Barcelona",
+      "neighborhood": "Montjuïc",
+      "lat": 41.3685,
+      "lng": 2.1534,
+      "price": "€12 general (valid two days); €2 rooftop terraces only",
+      "booking_url": "https://www.museunacional.cat/en",
+      "why_go": "Romanesque church murals and Catalan Modernisme in a palace with a huge city view.",
+      "notes": "Free on the first Sunday (Nov 1) and Saturdays from 15:00; free entry must be booked online. Current shows include 'Art, War & Memory' and 'Wounded Militiaman'. Winter hours come from a third-party guide; the official site confirms winter hours start Oct 1 but did not show them.",
+      "sources": [
+        "https://barcelonaurbana.com/ca/blog/mnac-preus-i-dies-gratuits",
+        "https://www.museunacional.cat/en",
+        "https://beteve.cat/agenda/exposicions-museus-art-barcelona/"
+      ]
+    },
+    {
+      "id": "macba",
+      "name": "MACBA (Museu d'Art Contemporani de Barcelona)",
+      "category": "art",
+      "dates": "Sun Nov 1 (free), Mon Nov 2, Wed Nov 4, Thu Nov 5; closed Tue Nov 3",
+      "times": "Mon, Wed-Fri 11:00-19:30; Sat 10:00-20:00; Sun 10:00-15:00",
+      "venue": "MACBA",
+      "address": "Plaça dels Àngels, 1, 08001 Barcelona",
+      "neighborhood": "El Raval",
+      "lat": 41.3833,
+      "lng": 2.1667,
+      "price": "€13.50 online, €15 at the door; under 16 free",
+      "booking_url": "https://www.macba.cat/en/visit",
+      "why_go": "Barcelona's main contemporary art museum, in a bright white building with skaters out front.",
+      "notes": "Free on the first Sunday (Nov 1) and from 18:00 on Thursdays, Fridays and Saturdays (so Thu Nov 5, 18:00-19:30). On view: 'Presoners de l'amor. Fins al sol de la llibertat' (until Jan 17, 2027).",
+      "sources": [
+        "https://www.macba.cat/en/visit",
+        "https://beteve.cat/agenda/exposicions-museus-art-barcelona/"
+      ]
+    },
+    {
+      "id": "fundacio-joan-miro",
+      "name": "Fundació Joan Miró",
+      "category": "art",
+      "dates": "Sun Nov 1, Tue Nov 3 - Thu Nov 5; closed Mon Nov 2",
+      "times": "From Nov 1: Tue-Sun 10:00-19:00",
+      "venue": "Fundació Joan Miró",
+      "address": "Parc de Montjuïc, 08038 Barcelona",
+      "neighborhood": "Montjuïc",
+      "lat": 41.3685,
+      "lng": 2.1599,
+      "price": "€17 online, €18 at the door; reduced €11-12; under 12 free",
+      "booking_url": "https://www.fmirobcn.org/en/",
+      "why_go": "Miró's own museum on Montjuïc, now with a big Charlotte Perriand design show.",
+      "notes": "On view: Charlotte Perriand (Oct 6, 2026 - Mar 28, 2027), Victor Ruiz Colomer (Oct 30, 2026 - Jan 17, 2027), 'Joan Miró. Circles' and the Miró Collection. Not on the first-Sunday free list. Prices from a third-party guide dated Aug 31, 2026.",
+      "sources": [
+        "https://www.fmirobcn.org/en/events/period/day/date/2026-11-01",
+        "https://www.fmirobcn.org/en/events/period/day/date/2026-11-03",
+        "https://barcelonaurbana.com/ca/blog/fundacio-miro-preus-i-horaris"
+      ]
+    },
+    {
+      "id": "cccb-cult-of-beauty",
+      "name": "'The Cult of Beauty' at the CCCB",
+      "category": "art",
+      "dates": "Sun Nov 1 - Thu Nov 5, 2026 (show ends Nov 8); closed Mon Nov 2 unless a holiday",
+      "times": "Tue-Sun 10:00-20:00",
+      "venue": "CCCB (Centre de Cultura Contemporània de Barcelona)",
+      "address": "Carrer de Montalegre, 5, 08001 Barcelona",
+      "neighborhood": "El Raval",
+      "lat": 41.3837,
+      "lng": 2.167,
+      "price": "€8 online, €10 at the desk; free Sun 15:00-20:00 with booking",
+      "booking_url": "https://www.cccb.org/en/visit",
+      "why_go": "A big final-days show on how ideas of beauty have shaped us, right next to MACBA.",
+      "notes": "Free on Sunday Nov 1 from 15:00 if you reserve online. Also: 'Beirut and Dubai' talks season from Nov 3. Nov 1 holiday status not stated by the CCCB.",
+      "sources": [
+        "https://www.cccb.org/en",
+        "https://www.cccb.org/en/visit",
+        "https://beteve.cat/agenda/exposicions-museus-art-barcelona/"
+      ]
+    },
+    {
+      "id": "casa-batllo-gaudi-miro-gomis",
+      "name": "Casa Batlló and 'Gaudí-Miró-Gomis: Deconstructed'",
+      "category": "art",
+      "dates": "Daily, Nov 1-5, 2026 (exhibition until Jan 10, 2027)",
+      "times": "09:00-22:30 (exhibition last entry 20:45)",
+      "venue": "Casa Batlló",
+      "address": "Passeig de Gràcia, 43, 08007 Barcelona",
+      "neighborhood": "Eixample",
+      "lat": 41.3916,
+      "lng": 2.165,
+      "price": "not found on the official site",
+      "booking_url": "https://www.casabatllo.es/en/online-tickets/",
+      "why_go": "Gaudí's dragon-roofed house plus a new digital show pairing Gaudí, Miró and photographer Joaquim Gomis.",
+      "notes": "The exhibition is on the 2nd floor (Casa Batlló Contemporary), made with the Fundació Joan Miró. It can be booked alone or with the house visit. Children 0-12 free for the exhibition.",
+      "sources": [
+        "https://www.casabatllo.es/en/",
+        "https://www.casabatllo.es/en/online-tickets/expo/",
+        "https://contemporary.casabatllo.es/en/exhibitions/gaudi-miro-gomis-deconstructed/"
+      ]
+    },
+    {
+      "id": "la-pedrera-casa-mila",
+      "name": "La Pedrera (Casa Milà)",
+      "category": "art",
+      "dates": "Daily, Nov 1-5, 2026",
+      "times": "Nov 1: 09:00-20:30 (night visit 20:40-22:20). From Nov 2: 09:00-18:30 (night visit 19:00-23:00)",
+      "venue": "La Pedrera - Casa Milà",
+      "address": "Passeig de Gràcia, 92, 08008 Barcelona",
+      "neighborhood": "Eixample",
+      "lat": 41.3954,
+      "lng": 2.1619,
+      "price": "Day visit from €29; Night Experience from €39.50; Sunset from €25 (until Nov 1)",
+      "booking_url": "https://www.lapedrera.com/en/tickets/",
+      "why_go": "Gaudí's wavy stone apartment building with a rooftop of warrior-like chimneys.",
+      "notes": "Hours switch to winter on Nov 2. Open on public holidays. An Anselm Kiefer exhibition is promoted, but its dates were not found.",
+      "sources": [
+        "https://www.lapedrera.com/en/practical-information/",
+        "https://www.lapedrera.com/en"
+      ]
+    },
+    {
+      "id": "park-guell",
+      "name": "Park Güell",
+      "category": "art",
+      "dates": "Daily, Nov 1-5, 2026",
+      "times": "Ticketed visits 09:30-19:30 (winter hours not confirmed on the official site)",
+      "venue": "Park Güell",
+      "address": "Gràcia district (La Salut); nearest metro L3 Vallcarca",
+      "neighborhood": "Gràcia (La Salut)",
+      "lat": 41.4145,
+      "lng": 2.1527,
+      "price": "€18 general; €13.50 reduced",
+      "booking_url": "https://parkguell.barcelona/en",
+      "why_go": "Gaudí's hilltop park with mosaic benches, the dragon stair and wide city views.",
+      "notes": "Tickets must be bought in advance online, with timed entry; you can enter up to 30 minutes after your slot and cannot re-enter. Hours and price come from a third-party guide checked in 2026.",
+      "sources": [
+        "https://parkguell.barcelona/en",
+        "https://barcelonaurbana.com/en/places/park-guell"
+      ]
+    }
+  ],
+  "city_notes": [
+    {
+      "note": "Nov 1 (All Saints, Tots Sants) falls on a Sunday in 2026 and is not moved to Monday. Expect normal Sunday closures: municipal food markets (Boqueria, Santa Caterina) are shut, most shops are shut, but bakeries, florists and many supermarkets can open.",
+      "source": "https://en.ara.cat/economy/this-is-the-2026-work-calendar-in-catalonia_1_5319338.html"
+    },
+    {
+      "note": "Many museums close on Mondays (Picasso, MNAC, Miró, CCCB), so plan Monday Nov 2 for MACBA, Gaudí houses, markets or a concert. MACBA is closed on Tuesday Nov 3. Museu Tàpies is closed for about three months, with shows moved to early 2027.",
+      "source": "https://beteve.cat/agenda/exposicions-museus-art-barcelona/"
+    },
+    {
+      "note": "Nov 1 is also the first Sunday of the month: Picasso, MNAC and MACBA are free that day, and the CCCB is free from 15:00. Picasso and MNAC require a free online booking (Picasso opens bookings four days ahead at 10:00).",
+      "source": "https://museupicassobcn.cat/en/plan-your-visit/buy-tickets-and-opening-hours"
+    },
+    {
+      "note": "Locals eat lunch about 14:00-15:00 and dinner from about 21:00, often 22:00. Vermut hour is roughly noon to 2pm, longer on weekends.",
+      "source": "https://www.barcelona.cat/internationalwelcome/en/need/hours-festivals-and-customs"
+    },
+    {
+      "note": "Pickpockets work La Rambla all day, La Boqueria (about 11:00-14:00), Plaça de Catalunya and metro lines L1, L3 and L5 (stations like Diagonal, Plaça Catalunya, Sants). Wear bags in front and keep phones out of back pockets and off café tables.",
+      "source": "https://barcelonaurbana.com/en/blog/barcelona-pickpockets-zones-tourist-guide"
+    },
+    {
+      "note": "Metro: a single ticket is €2.90; the T-casual is €13 for 10 rides in Zone 1 but is personal, so each traveler needs one. Neither covers the airport metro (L9 Sud), which needs a €5.90 airport ticket. Prices from unofficial guides; the official TMB page could not be loaded.",
+      "source": "https://barcelonaurbana.com/en/blog/barcelona-metro-ticket-to-buy"
+    }
+  ],
+  "open_questions": [
+    "Ticket prices for Barcelona Jazz Festival shows (Nate Smith, Branford Marsalis & Dianne Reeves, Sant Andreu Jazz Band, Kurt Rosenwinkel) are not shown on the festival pages; the ticket site could not be loaded.",
+    "Jamboree's agenda marked every Nov 1-5 show 'sold out'. This may be real or a page display issue; confirm before listing.",
+    "Tablao Cordobés and Casa Batlló prices in euros were not found on official pages.",
+    "Palacio del Flamenco: one listing says the venue is currently closed and its official site blocked fetching. Left out.",
+    "Harlem Jazz Club: only a 2012 review was found and the official site blocked fetching. Left out.",
+    "MNAC winter hours (Tue-Sat 10:00-18:00) come from a third-party guide; the official page did not show them.",
+    "Park Güell winter hours and its 2026 price were not confirmed on the official site.",
+    "Whether Picasso, MNAC and CCCB keep normal hours on Sun Nov 1 is not stated outright; none lists Nov 1 as a closed day.",
+    "CaixaForum: whether it is free on the first Sunday was not confirmed officially. Its show 'Una força del passat' (Sep 23 - Jan 10) is on view; not included as an item.",
+    "Devour/Walks tapas and wine tour in El Born: from $234 USD; Nov 1-5 availability not shown. Not included.",
+    "Escribà, Brunells and other bakery hours on Sun Nov 1 were not confirmed.",
+    "Lat/lng values are approximate venue coordinates, not taken from a cited source; verify on a map before publishing."
+  ]
+}

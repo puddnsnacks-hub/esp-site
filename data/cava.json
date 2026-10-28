@@ -1,0 +1,425 @@
+{
+  "checked_at": "2026-10-27",
+  "notes": "Trip dates Nov 1-5, 2026. Nov 1 (All Saints' Day, a holiday) falls on a Sunday in 2026, so weekend hours apply anyway. Nov 2-5 are Monday to Thursday. Coordinates come from OpenStreetMap Nominatim lookups by place name (source listed per item). Several Penedès Turisme activity pages say 'This activity has already taken place', so their prices may be from an earlier season. Confirm before booking.",
+  "history": [
+    {
+      "fact": "About 95% of all Cava is made in the Penedès area of Catalonia.",
+      "source": "https://en.wikipedia.org/wiki/Cava_(Spanish_wine)"
+    },
+    {
+      "fact": "Sant Sadurní d'Anoia is called the capital of Cava. Most Cava companies there can be visited.",
+      "source": "https://www.barcelonaesmoltmes.cat/en/detallviatge/-/dades/3bd3LPr67IZT/detall/23_1_8/do-cava"
+    },
+    {
+      "fact": "In 1872, Josep Raventós made the first Cava in Spain using the traditional method, at Codorníu in Sant Sadurní d'Anoia. The provincial tourism site says the first batch was 3,000 bottles.",
+      "source": "https://en.wikipedia.org/wiki/Codorn%C3%ADu_Winery ; https://www.barcelonaesmoltmes.cat/en/detallviatge/-/dades/3bd3LPr67IZT/detall/23_1_8/do-cava"
+    },
+    {
+      "fact": "Traditional method means the bubbles come from a second fermentation inside the bottle. The bottles rest on their sides while this happens. The wine then ages on the dead yeast, which adds toasty and nutty notes over time.",
+      "source": "https://www.cava.wine/en/origin-cava/glossary/A/"
+    },
+    {
+      "fact": "The three classic grapes are Macabeo, Xarel·lo and Parellada. Chardonnay is also allowed. Allowed red grapes are Garnacha, Trepat, Pinot Noir and Monastrell, mostly used for rosé.",
+      "source": "https://www.cava.wine/en/origin-cava/authorised-grape-varieties"
+    },
+    {
+      "fact": "Aging tiers (minimum time on the yeast): Cava de Guarda 9 months; Reserva more than 18 months; Gran Reserva 30 months; Cava de Paraje Calificado (single site) more than 36 months. Gran Reserva and Paraje Calificado must be dry (Brut Nature, Extra Brut or Brut).",
+      "source": "https://www.cava.wine/en/categories-types/"
+    },
+    {
+      "fact": "Phylloxera, a vine pest, wrecked Penedès vineyards in the late 1800s. Growers replanted with native white grapes, which helped Cava grow.",
+      "source": "https://en.wikipedia.org/wiki/Cava_(Spanish_wine)"
+    },
+    {
+      "fact": "'Cava' means 'cave' or 'cellar' in Spanish. Wine was aged in underground cellars. Spanish makers adopted the name officially around 1970 to set their wine apart from French Champagne.",
+      "source": "https://en.wikipedia.org/wiki/Cava_(Spanish_wine)"
+    },
+    {
+      "fact": "The split, in plain terms: some top family wineries felt the Cava name had become tied to cheap wine. Raventós i Blanc left the Cava DO in 2012. Clàssic Penedès formed in 2013 under the Penedès DO, with 100% organic grapes. In January 2019, six wineries including Gramona, Recaredo, Llopart and Torelló left to form Corpinnat. Corpinnat requires organic grapes, local varieties, a set minimum grape price and at least 18 months of aging. These wines no longer say 'Cava' on the label.",
+      "source": "https://www.winescholarguild.com/blog/tasting-and-trends/corpinnat-a-sparkling-shift-in-catalunya"
+    },
+    {
+      "fact": "In March 2026, Juvé & Camps voted to leave the Cava DO and join Corpinnat. It became the group's 22nd winery and largest member.",
+      "source": "https://spanishwinelover.com/juve-camps-leaves-do-cava-to-become-corpinnat-s-largest-member"
+    }
+  ],
+  "region": {
+    "summary": "Penedès sits about halfway between Barcelona and Tarragona, roughly 42 km from each. Inland it is a wide valley of vineyards. Montserrat's jagged peaks rise to the north, and some wineries, like Llopart, have vineyard views to the mountain. Sant Sadurní d'Anoia is in the Alt Penedès county, on the R4 train line and the AP-7 highway.",
+    "summary_sources": [
+      "https://www.penedesturisme.cat/en/penedes-wine-region",
+      "https://barcelonaurbana.com/en/blog/penedes-day-trip-from-barcelona",
+      "https://en.wikipedia.org/wiki/Sant_Sadurn%C3%AD_d%27Anoia"
+    ],
+    "getting_there": [
+      {
+        "mode": "Train (Rodalies R4)",
+        "time": "About 45 to 50 minutes",
+        "cost": "Not confirmed for 2026. One guide lists €6.90 each way. A 10-trip Bonotren card for 3 zones costs €27.60 (zone for Sant Sadurní not confirmed).",
+        "notes": "Board at Plaça de Catalunya, Arc de Triomf or Barcelona-Sants. Trains run about every 30 to 60 minutes on weekdays. Freixenet is right across from Sant Sadurní station. Codorníu is about 1.5 km away. The R4 has frequent delays, so build in a buffer. The Martorell to Sant Sadurní stretch was closed after a fatal wall collapse at Gelida on January 20, 2026, and reopened April 7, 2026. Free Rodalies travel ended May 9, 2026.",
+        "source": "https://barcelonaurbana.com/en/blog/penedes-day-trip-from-barcelona ; https://www.catalannews.com/society-science/item/section-of-r4-rodalies-line-closed-after-gelida-accident-reopens-after-more-than-two-months-closed ; https://www.3cat.cat/3catinfo/rodalies-torna-a-ser-de-pagament-a-partir-de-dissabte-quins-abonaments-i-tarifes-tornen/noticia/3407648/"
+      },
+      {
+        "mode": "Car",
+        "time": "45 to 60 minutes from central Barcelona",
+        "cost": "Not found (tolls and fuel not checked)",
+        "notes": "About 50 km via the AP-7, exits 28, 29 or 30. A car reaches wineries outside town. Pick a driver who will not drink.",
+        "source": "https://barcelonaurbana.com/en/blog/penedes-day-trip-from-barcelona"
+      },
+      {
+        "mode": "Organized tour",
+        "time": "7 to 10 hours",
+        "cost": "One guide says €70 to €120 per person; see day_tours for specific prices",
+        "notes": "Easiest option if you want Montserrat and a winery in one day.",
+        "source": "https://barcelonaurbana.com/en/blog/penedes-day-trip-from-barcelona"
+      }
+    ]
+  },
+  "tours": [
+    {
+      "name": "Codorníu",
+      "town": "Sant Sadurní d'Anoia",
+      "address": "Avinguda Jaume de Codorníu, s/n, 08770 Sant Sadurní d'Anoia",
+      "lat": 41.43375,
+      "lng": 1.79758,
+      "tour_name": "Codorníu Discovery Tour / The Iconic Tour",
+      "duration": "1 h 30 min",
+      "price": "Discovery Tour: adults €23, ages 8-17 €17.25, under 8 free (2 premium cavas). Iconic Tour: adults €30, ages 8-17 €22.50 (3 Ars Collecta cavas with 3 chocolates). Prices from Penedès Turisme; may be from an earlier season.",
+      "languages": "English, Spanish, Catalan (start times not published in sources)",
+      "availability_nov_1_5": "Listed as every day. A booking site showed open dates Oct 28 to Nov 3, 2026. Exact English times not found.",
+      "booking_url": "https://www.codorniu.com/visitanos",
+      "how_to_get_there": "R4 train to Sant Sadurní, then walk about 1.5 km or take a taxi.",
+      "why_go": "The birthplace of Cava. Modernista cellars by Josep Puig i Cadafalch, built 1895-1915, and a small train ride through the underground tunnels.",
+      "sources": [
+        "https://www.penedesturisme.cat/en/activity/codorniu-discovery-tour",
+        "https://penedesturisme.cat/en/activity/codorniu-iconic-tour",
+        "https://www.tuimusement.com/us/spain/barcelona/codorniu-winery-guided-tour-with-cava-tasting/e_p2d79-d_60-c_161/",
+        "https://pelago.com/en/activity/p4qfm-codornu-the-iconic-tour-sant-sadurni-danoia",
+        "https://en.wikipedia.org/wiki/Codorn%C3%ADu_Winery",
+        "https://nominatim.openstreetmap.org/search?q=Codorn%C3%ADu,+Sant+Sadurn%C3%AD+d%27Anoia&format=json"
+      ]
+    },
+    {
+      "name": "Freixenet",
+      "town": "Sant Sadurní d'Anoia",
+      "address": "C/ de Joan Sala, 2, 08770 Sant Sadurní d'Anoia",
+      "lat": 41.42043,
+      "lng": 1.79363,
+      "tour_name": "Freixenet Tour",
+      "duration": "90 minutes",
+      "price": "Adults €21.50; ages 9-17 €16; under 9 free; seniors €18.50. Includes 2 cavas.",
+      "languages": "Catalan, Spanish, English, French, German (subject to availability)",
+      "availability_nov_1_5": "Official page says daily, advance booking required. English times not found.",
+      "booking_url": "https://freixenet.com/visit-us/visit-the-winery/freixenet-tour",
+      "how_to_get_there": "Directly across from Sant Sadurní R4 station.",
+      "why_go": "Easiest visit by train. Big, classic Cava house.",
+      "visitor_center_status": "Official tour page is live and says daily, with no closure notice. No reopening news found either way.",
+      "sources": [
+        "https://freixenet.com/visit-us/visit-the-winery/freixenet-tour",
+        "https://barcelonaurbana.com/en/blog/penedes-day-trip-from-barcelona",
+        "https://nominatim.openstreetmap.org/search?q=Freixenet,+Sant+Sadurn%C3%AD+d%27Anoia&format=json"
+      ]
+    },
+    {
+      "name": "Recaredo",
+      "town": "Sant Sadurní d'Anoia",
+      "address": "C/ Tamarit, 10, 08770 Sant Sadurní d'Anoia",
+      "lat": 41.42514,
+      "lng": 1.7869,
+      "tour_name": "Origen Visit (also private Temps, Serral del Vell, Turó d'en Mota visits)",
+      "duration": "Origen 2 h; Temps 2.5 h; Serral del Vell and Turó d'en Mota 4 h",
+      "price": "Origen €35; Temps €70; Serral del Vell €95; Turó d'en Mota €180 (private ones min. 2 people)",
+      "languages": "Not found",
+      "availability_nov_1_5": "Penedès Turisme lists Mon-Fri mornings and midday, weekends mornings, booking always required. Not confirmed for these dates.",
+      "booking_url": "https://www.recaredo.com/en/?p=542",
+      "how_to_get_there": "R4 to Sant Sadurní; the winery is in town (walking distance not confirmed).",
+      "why_go": "A founding Corpinnat winery. Several visit levels, from a 2-hour visit to private vineyard tours.",
+      "contact": "visites@recaredo.com, +34 93 891 0214",
+      "sources": [
+        "https://www.recaredo.com/en/?p=542",
+        "https://www.penedesturisme.cat/en/activity/secrets-time-recaredo",
+        "https://nominatim.openstreetmap.org/search?q=Recaredo,+Sant+Sadurn%C3%AD+d%27Anoia&format=json"
+      ]
+    },
+    {
+      "name": "Gramona",
+      "town": "Sant Sadurní d'Anoia",
+      "address": "Carrer de la Indústria, 36, 08770 Sant Sadurní d'Anoia",
+      "lat": 41.42698,
+      "lng": 1.77299,
+      "tour_name": "Not found",
+      "duration": "60-90 minutes (third-party listing)",
+      "price": "Not found",
+      "languages": "Spanish and English (third-party listing)",
+      "availability_nov_1_5": "Not found. Contact the winery.",
+      "booking_url": "https://gramona.com/en/contact-us/",
+      "how_to_get_there": "R4 to Sant Sadurní.",
+      "why_go": "A founding Corpinnat family winery in town.",
+      "contact": "+34 938 91 01 13",
+      "sources": [
+        "https://www.penedesturisme.cat/en/penedes-events/company/gramona",
+        "https://www.enprimeurclub.com/wineries/gramona-sant-sadurn-danoia-winery",
+        "https://nominatim.openstreetmap.org/search?q=Gramona,+Sant+Sadurn%C3%AD+d%27Anoia&format=json"
+      ]
+    },
+    {
+      "name": "Raventós i Blanc",
+      "town": "Sant Sadurní d'Anoia",
+      "address": "Plaça del Roure, s/n, 08770 Sant Sadurní d'Anoia",
+      "lat": 41.43414,
+      "lng": 1.79694,
+      "tour_name": "Estate Tasting / Vintage Sparkling (third-party listing)",
+      "duration": "60-90 minutes (third-party listing)",
+      "price": "Not found",
+      "languages": "Not found",
+      "availability_nov_1_5": "By appointment only. Not confirmed.",
+      "booking_url": "https://www.raventos.com/",
+      "how_to_get_there": "Next to Codorníu; R4 to Sant Sadurní then taxi or walk.",
+      "why_go": "The first winery to leave the Cava DO (2012). Run by descendants of Josep Raventós.",
+      "contact": "+34 938 18 32 62",
+      "sources": [
+        "https://www.enprimeurclub.com/wineries/raventos-i-blanc-sant-sadurn-danoia-winery",
+        "https://www.winescholarguild.com/blog/tasting-and-trends/corpinnat-a-sparkling-shift-in-catalunya",
+        "https://nominatim.openstreetmap.org/search?q=Ravent%C3%B3s+i+Blanc,+Sant+Sadurn%C3%AD+d%27Anoia&format=json"
+      ]
+    },
+    {
+      "name": "Juvé & Camps",
+      "town": "Sant Sadurní d'Anoia",
+      "address": "Carrer de Sant Venat, 1, 08770 Sant Sadurní d'Anoia",
+      "lat": 41.42455,
+      "lng": 1.7919,
+      "tour_name": "Gran Reserva Route (also Armonia, Terroir, Premium routes)",
+      "duration": "1 h 30 min",
+      "price": "€35 per person (group visit)",
+      "languages": "Not found",
+      "availability_nov_1_5": "Penedès Turisme lists every day: Mon-Fri 10:00, 12:00, 15:00; Sat-Sun 10:00, 12:00. So Sun Nov 1 at 10:00 or 12:00; Mon-Thu Nov 2-5 at 10:00, 12:00, 15:00. Language per slot not found.",
+      "booking_url": "https://www.juveycamps.com/en/enotourism-penedes/visit-cavas-tour-armonia/",
+      "how_to_get_there": "R4 to Sant Sadurní; winery is in town.",
+      "why_go": "Big family house that just switched to Corpinnat in 2026.",
+      "contact": "+34 679 79 06 08",
+      "sources": [
+        "https://www.penedesturisme.cat/en/activity/gran-reserva-route",
+        "https://spanishwinelover.com/juve-camps-leaves-do-cava-to-become-corpinnat-s-largest-member",
+        "https://nominatim.openstreetmap.org/search?q=Juv%C3%A9+%26+Camps,+Sant+Sadurn%C3%AD+d%27Anoia&format=json"
+      ]
+    },
+    {
+      "name": "Torelló",
+      "town": "Gelida (on the road to Sant Sadurní)",
+      "address": "Carretera C-243b, km 13.4 (Gelida to Sant Sadurní road), 08790 Gelida",
+      "lat": 41.43265,
+      "lng": 1.83799,
+      "tour_name": "Traditional Visit / Masia Tasting Visit / Can Martí Brunch",
+      "duration": "1.5 h / 2 h / 3 h",
+      "price": "€20 / €30 / €50 per adult (brunch min. 4 people). Prepayment required.",
+      "languages": "English, Catalan, Spanish",
+      "availability_nov_1_5": "Open Monday to Saturday, booking required. Closed Sunday, so not Nov 1. Nov 2-5 possible.",
+      "booking_url": "mailto:visita@torello.es",
+      "how_to_get_there": "Outside town. Car or taxi from Sant Sadurní station.",
+      "why_go": "Family estate with a vineyard walk and a masia (farmhouse) courtyard. Corpinnat founder.",
+      "sources": [
+        "https://penedesturisme.cat/en/wine-route/wineries/torello",
+        "https://nominatim.openstreetmap.org/search?q=Torell%C3%B3,+Gelida&format=json"
+      ]
+    },
+    {
+      "name": "Llopart",
+      "town": "Subirats (Sant Pau d'Ordal area)",
+      "address": "Carretera de l'Ordal a Sant Sadurní d'Anoia, Subirats (street number not found)",
+      "lat": 41.40801,
+      "lng": 1.80354,
+      "tour_name": "Reserva Tour at Llopart",
+      "duration": "2 hours",
+      "price": "Adults €32; over 65 €28; ages 8-17 €20; ages 2-7 €14",
+      "languages": "Not found",
+      "availability_nov_1_5": "Mon-Fri 9:00-18:00; Sat-Sun 10:00-14:00; booking required. Not confirmed for these dates.",
+      "booking_url": "https://www.penedesturisme.cat/en/activity/reserva-tour-llopart",
+      "how_to_get_there": "Hilltop estate outside town. Car or taxi.",
+      "why_go": "Montserrat views over the vines. Corpinnat founder.",
+      "contact": "+34 938 99 31 25",
+      "sources": [
+        "https://www.penedesturisme.cat/en/activity/reserva-tour-llopart",
+        "https://barcelonaurbana.com/en/blog/penedes-day-trip-from-barcelona",
+        "https://nominatim.openstreetmap.org/search?q=Llopart,+Subirats&format=json"
+      ]
+    },
+    {
+      "name": "Agustí Torelló Mata (Kripta)",
+      "town": "Sant Sadurní d'Anoia",
+      "address": "Not confirmed (OpenStreetMap places it on road BP-2151, la Riera, 08775)",
+      "lat": 41.43543,
+      "lng": 1.7659,
+      "tour_name": "Visit Reserve",
+      "duration": "1 h 15 min",
+      "price": "Listed as US$33.42 per adult (euro price not found)",
+      "languages": "English and Spanish",
+      "availability_nov_1_5": "No fixed times. Request a date on the booking site; free cancellation up to 72 hours before.",
+      "booking_url": "https://www.winalist.com/experiences/3600/visit-reserve",
+      "how_to_get_there": "Outside the town center. Taxi from Sant Sadurní station.",
+      "why_go": "Home of the Kripta cava; small English or Spanish visit you can request by date.",
+      "sources": [
+        "https://www.winalist.com/experiences/3600/visit-reserve",
+        "https://nominatim.openstreetmap.org/search?q=Agust%C3%AD+Torell%C3%B3+Mata,+Sant+Sadurn%C3%AD+d%27Anoia&format=json"
+      ]
+    }
+  ],
+  "day_tours": [
+    {
+      "name": "Montserrat Monastery with Cava Wine Tasting Small Group Tour",
+      "operator": "Explore Catalunya",
+      "duration": "10 hours",
+      "price": "From US$103.84 (euro price not found)",
+      "languages": "English only",
+      "start": "8:30 AM",
+      "meeting_point": "Operator office; one listing says opposite the Palau de la Música (Carrer del Palau de la Música, 1)",
+      "winery": "Freixenet or Codorníu",
+      "includes": "Guide, minivan, tasting. Not included: Montserrat cable car (about €8), museum.",
+      "booking_url": "https://magpie.travel/things-to-do/montserrat-monastery-with-cava-wine-tasting-small-group-tour-from-barcelona/e2655c83-0258-4cb6-a176-e2ef1b4ecaf0",
+      "availability_nov_1_5": "Not confirmed",
+      "sources": [
+        "https://magpie.travel/things-to-do/montserrat-monastery-with-cava-wine-tasting-small-group-tour-from-barcelona/e2655c83-0258-4cb6-a176-e2ef1b4ecaf0",
+        "https://www.tui.co.uk/things-to-do/barcelona/montserrat-and-cava-trail-day-tour-from-barcelona-61906"
+      ]
+    },
+    {
+      "name": "Montserrat & Cava Winery Tour: Day Trip from Barcelona",
+      "operator": "Walks (Walks & Devour)",
+      "duration": "7 hours",
+      "price": "US$217 per person (euro price not found)",
+      "languages": "English",
+      "start": "Morning; exact time not found",
+      "meeting_point": "Passeig de Colom, 2, Barcelona",
+      "winery": "Small family-run Penedès winery",
+      "includes": "Basilica entry, 4x4 vineyard ride, five wines including cava, farmhouse lunch, minivan, guide. Up to 15 people.",
+      "booking_url": "https://www.walksdevour.com/barcelona/tours/montserrat-tour-day-trip-from-barcelona/",
+      "availability_nov_1_5": "Not confirmed",
+      "sources": [
+        "https://www.walksdevour.com/barcelona/tours/montserrat-tour-day-trip-from-barcelona/",
+        "https://magpie.travel/things-to-do/montserrat-cava-winery-tour-day-trip-from-barcelona/0131c250-bea3-457a-aaff-df50bc5a8e67"
+      ]
+    },
+    {
+      "name": "Montserrat & Cava Winery Private Tour",
+      "operator": "Runner Bean Tours",
+      "duration": "9 hours",
+      "price": "€1,365 per tour for 1-6 people. Winery fee and Montserrat entries extra.",
+      "languages": "On request",
+      "start": "9:30 AM, hotel or cruise pickup",
+      "meeting_point": "Your Barcelona accommodation",
+      "winery": "A cava winery near Sant Sadurní, chosen by day or preference",
+      "includes": "Guide plus separate driver in a minivan",
+      "booking_url": "https://runnerbeantours.com/tours/montserrat-and-cava-winery/",
+      "availability_nov_1_5": "Request form; not confirmed",
+      "sources": [
+        "https://runnerbeantours.com/tours/montserrat-and-cava-winery/"
+      ]
+    }
+  ],
+  "bars": [
+    {
+      "name": "El Xampanyet",
+      "address": "Carrer de Montcada, 22, 08003 Barcelona (El Born)",
+      "lat": 41.38451,
+      "lng": 2.18167,
+      "hours": "Tuesday to Saturday 12:00-16:00 and 19:00-23:30. Closed Mondays and all of August. Sunday hours not confirmed.",
+      "price_notes": "A review says a glass of house cava is about €2. Always packed; arrive 30 minutes before noon or 19:00 opening.",
+      "sources": [
+        "https://barcelonanavigator.com/el-xampanyet/",
+        "https://www.theinfatuation.com/barcelona/reviews/el-xampanyet",
+        "https://nominatim.openstreetmap.org/search?q=El+Xampanyet,+Barcelona&format=json"
+      ]
+    },
+    {
+      "name": "Can Paixano (La Xampanyeria)",
+      "address": "Carrer de la Reina Cristina, 7, 08003 Barcelona (near Jaume I metro, L4)",
+      "lat": 41.38178,
+      "lng": 2.18343,
+      "hours": "Sources differ: Time Out (2019) says Mon-Sat 9:00-22:30; Barcelona Hacks (updated April 2026) says opens around noon, closes 22:00. Both say closed Sunday.",
+      "price_notes": "House cava rosat about €1.20 a glass. House rule: order something to eat for every three glasses.",
+      "sources": [
+        "https://www.timeout.es/barcelona/es/bares-y-pubs/can-paixano",
+        "https://barcelonahacks.com/cheap-barcelona-wine-bar-la-champagneria/",
+        "https://nominatim.openstreetmap.org/search?q=Can+Paixano,+Barcelona&format=json"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Brut Nature",
+      "meaning": "Driest. 0-3 grams of sugar per liter, no sugar added.",
+      "source": "https://www.cava.wine/en/categories-types/"
+    },
+    {
+      "term": "Extra Brut",
+      "meaning": "Very dry. 0-6 g/L sugar.",
+      "source": "https://www.cava.wine/en/categories-types/"
+    },
+    {
+      "term": "Brut",
+      "meaning": "Dry, the most common style. Up to 12 g/L sugar.",
+      "source": "https://www.cava.wine/en/categories-types/"
+    },
+    {
+      "term": "Extra Seco",
+      "meaning": "Off-dry. 12-17 g/L sugar.",
+      "source": "https://www.cava.wine/en/categories-types/"
+    },
+    {
+      "term": "Seco",
+      "meaning": "Lightly sweet, despite the name ('dry'). 17-32 g/L.",
+      "source": "https://www.cava.wine/en/categories-types/"
+    },
+    {
+      "term": "Semiseco",
+      "meaning": "Medium sweet. 32-50 g/L.",
+      "source": "https://www.cava.wine/en/categories-types/"
+    },
+    {
+      "term": "Dulce",
+      "meaning": "Sweet. Over 50 g/L.",
+      "source": "https://www.cava.wine/en/categories-types/"
+    },
+    {
+      "term": "Rosado (Rosat in Catalan)",
+      "meaning": "Rosé Cava. Made the same way, often with red grapes like Garnacha, Trepat, Pinot Noir or Monastrell.",
+      "source": "https://www.cava.wine/en/categories-types/ ; https://www.cava.wine/en/origin-cava/authorised-grape-varieties"
+    },
+    {
+      "term": "Cava de Guarda",
+      "meaning": "Entry tier, at least 9 months of aging.",
+      "source": "https://www.cava.wine/en/categories-types/"
+    },
+    {
+      "term": "Reserva",
+      "meaning": "Aged more than 18 months.",
+      "source": "https://www.cava.wine/en/categories-types/"
+    },
+    {
+      "term": "Gran Reserva",
+      "meaning": "Aged at least 30 months. Always dry.",
+      "source": "https://www.cava.wine/en/categories-types/"
+    },
+    {
+      "term": "Paraje Calificado",
+      "meaning": "Single named site, aged more than 36 months. Top tier.",
+      "source": "https://www.cava.wine/en/categories-types/"
+    },
+    {
+      "term": "Corpinnat",
+      "meaning": "Label used by top Penedès wineries that left the Cava DO. Organic, local grapes, at least 18 months aging.",
+      "source": "https://www.winescholarguild.com/blog/tasting-and-trends/corpinnat-a-sparkling-shift-in-catalunya"
+    }
+  ],
+  "open_questions": [
+    "Codorníu: exact English tour times and any Nov 1 change. Official site (codorniu.com/visitanos) could not be fetched.",
+    "Freixenet visitor center: no news found of a closure or reopening. Official page says daily tours.",
+    "Gramona and Raventós i Blanc: tour names, prices and schedules not found. Official pages could not be read.",
+    "Recaredo, Llopart, Juvé & Camps: tour languages and English slots not found.",
+    "Penedès Turisme prices (Codorníu, Recaredo 'Secrets of time', Llopart, Juvé & Camps) may be from an earlier season.",
+    "R4 single fare Barcelona to Sant Sadurní in 2026 not confirmed (one guide says €6.90; zone not confirmed).",
+    "Day tour prices found only in US dollars; euro prices and departures for Nov 1-5 not confirmed.",
+    "Agustí Torelló Mata street address not confirmed.",
+    "El Xampanyet Sunday hours not confirmed; Can Paixano hours differ between sources.",
+    "Anna de Codorníu history and the Codorníu monument designation were not verified, so they are left out."
+  ]
+}

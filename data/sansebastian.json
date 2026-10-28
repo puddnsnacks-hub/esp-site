@@ -1,0 +1,553 @@
+{
+  "city": "San Sebastián (Donostia)",
+  "dates": "2026-11-05 to 2026-11-10",
+  "checked_at": "2026-10-27",
+  "items": [
+    {
+      "id": "gandarias",
+      "name": "Gandarias",
+      "category": "food",
+      "dates": "Daily, Nov 5–10",
+      "times": "Open every day. The tourism office lists the kitchen as open 11:00 until late; the exact closing time is unclear.",
+      "venue": "Restaurante Gandarias (bar and dining room)",
+      "address": "Calle 31 de Agosto 23, 20003 Donostia",
+      "neighborhood": "Parte Vieja",
+      "lat": 43.3238,
+      "lng": -1.9852,
+      "price": "not found",
+      "booking_url": "not found (walk-in at the bar)",
+      "why_go": "A busy, reliable Old Town bar that stays open every day, including Sunday and Monday.",
+      "notes": "Known for hot and cold pintxos, Iberian ham, meats and seafood. The official listing does not name one signature pintxo. Phone +34 943 42 63 62.",
+      "sources": [
+        "https://sansebastianturismoa.eus/en/establecimientos/restaurante-gandarias-2/"
+      ]
+    },
+    {
+      "id": "la-cuchara-de-san-telmo",
+      "name": "La Cuchara de San Telmo",
+      "category": "food",
+      "dates": "not found",
+      "times": "not found",
+      "venue": "La Cuchara de San Telmo",
+      "address": "Calle 31 de Agosto 28, 20003 Donostia",
+      "neighborhood": "Parte Vieja",
+      "lat": 43.3241,
+      "lng": -1.9849,
+      "price": "not found",
+      "booking_url": "not found (walk-in)",
+      "why_go": "Small back-lane bar behind San Telmo Museoa, famous for cooked-to-order hot pintxos.",
+      "notes": "Signature: carrillera (veal cheek braised in red wine). Seared foie is also popular. Hours and closing days not confirmed. Borda Berri (Fermín Calbetón 12) is a similar hot-pintxo bar nearby, known for carrillera, pig's ear and Idiazabal risotto; its hours were also not found.",
+      "sources": [
+        "https://mesprestiges.com/en/san-sebastian/places/la-cuchara-de-san-telmo",
+        "https://tablejourney.com/spain/san-sebastian/street-food/carrillera-cuchara/",
+        "https://mesprestiges.com/en/san-sebastian/places/borda-berri",
+        "https://tablejourney.com/spain/san-sebastian/street-food/risotto-idiazabal-borda-berri/"
+      ]
+    },
+    {
+      "id": "ganbara",
+      "name": "Ganbara",
+      "category": "food",
+      "dates": "Nov 5, 6, 7 and 10 (closed Sun Nov 8 and Mon Nov 9)",
+      "times": "Tue–Sat 12:30–15:30 and 19:00–22:30",
+      "venue": "Bar Ganbara",
+      "address": "Calle San Jerónimo 21, 20003 Donostia",
+      "neighborhood": "Parte Vieja",
+      "lat": 43.3236,
+      "lng": -1.9860,
+      "price": "not found",
+      "booking_url": "not found (bar is walk-in; contact info@ganbarajatetxea.com, +34 943 42 25 75)",
+      "why_go": "The classic stop for wild mushrooms, the bar's specialty.",
+      "notes": "Mushrooms (setas) are the house specialty. Closed Sunday and Monday per both the Michelin Guide and the tourism office.",
+      "sources": [
+        "https://guide.michelin.com/es/es/pais-vasco/donostia-san-sebastian/restaurante/ganbara",
+        "https://sansebastianturismoa.eus/en/establecimientos/bar-ganbara-3/"
+      ]
+    },
+    {
+      "id": "bar-nestor",
+      "name": "Bar Néstor",
+      "category": "food",
+      "dates": "not found",
+      "times": "not found. One tortilla is made at midday and one in the evening.",
+      "venue": "Bar Néstor",
+      "address": "Arrandegi Kalea (Calle Pescadería) 11, 20003 Donostia",
+      "neighborhood": "Parte Vieja",
+      "lat": 43.3234,
+      "lng": -1.9853,
+      "price": "not found",
+      "booking_url": "not found (sign-up list at the bar)",
+      "why_go": "The famous potato tortilla, made only twice a day, plus aged txuleta steak.",
+      "notes": "Each tortilla gives about 16 portions and sells out in minutes. Put your name on the list when the bar opens, or arrive about an hour early. Phone +34 943 42 48 73. Check Instagram @barnestor1980 for hours.",
+      "sources": [
+        "https://www.vozpopuli.com/gastropoli/el-bar-de-san-sebastian-donde-se-come-txuleta-y-la-tortilla-se-acaba-en-minutos.html",
+        "https://mesprestiges.com/en/san-sebastian/places/bar-nestor"
+      ]
+    },
+    {
+      "id": "la-vina",
+      "name": "La Viña",
+      "category": "food",
+      "dates": "Nov 5–8 and Nov 10 (closed Mon Nov 9)",
+      "times": "Tue–Sun 10:30–16:00 and 19:00–23:00",
+      "venue": "Bar La Viña",
+      "address": "Calle 31 de Agosto 3, 20003 Donostia",
+      "neighborhood": "Parte Vieja",
+      "lat": 43.3243,
+      "lng": -1.9867,
+      "price": "not found",
+      "booking_url": "not found (walk-in)",
+      "why_go": "Home of the creamy burnt Basque cheesecake.",
+      "notes": "Signature: tarta de queso. Hours checked by the source on Oct 14, 2026.",
+      "sources": [
+        "https://tablejourney.com/spain/san-sebastian/street-food/tarta-de-queso-la-vina/"
+      ]
+    },
+    {
+      "id": "bar-bergara",
+      "name": "Bar Bergara",
+      "category": "food",
+      "dates": "Daily, Nov 5–10",
+      "times": "Mon–Fri and Sun 11:00–23:00; Sat 11:00–16:00 and 19:00–23:00",
+      "venue": "Bar Bergara",
+      "address": "General Artetxe 8, 20002 Donostia",
+      "neighborhood": "Gros",
+      "lat": 43.3218,
+      "lng": -1.9789,
+      "price": "€ (lowest Michelin price band); per-pintxo prices not found",
+      "booking_url": "not found (walk-in)",
+      "why_go": "The best-known pintxo bar in Gros, open every day.",
+      "notes": "Signatures: Txalupa (mushroom and prawn gratin), Itxaso (monkfish with seafood cream), Udaberri (courgette with crayfish cream), foie with port grapes. Another Gros classic, Bodega Donostiarra (Peña y Goñi 13), is known for its 'completo' tortilla pintxo; its hours were not found.",
+      "sources": [
+        "https://guide.michelin.com/en/pais-vasco/es-donostia-san-sebastian/restaurant/bergara",
+        "https://mesprestiges.com/en/san-sebastian/places/bodega-donostiarra"
+      ]
+    },
+    {
+      "id": "bretxa-and-san-martin-markets",
+      "name": "La Bretxa and San Martín markets",
+      "category": "food",
+      "dates": "Mon–Sat; closed Sun Nov 8",
+      "times": "Both listed Mon–Sat 08:00–20:00. San Martín's GastroPote food evening was listed for Thursdays 19:00–22:00 (Nov 5), but that listing may be old.",
+      "venue": "Mercado de La Bretxa; Mercado de San Martín",
+      "address": "La Bretxa: Boulevard Zumardia 3, 20003. San Martín: Calle Loyola s/n, 20006.",
+      "neighborhood": "Parte Vieja edge (Bretxa); Centro (San Martín)",
+      "lat": 43.3227,
+      "lng": -1.9838,
+      "price": "Free to enter",
+      "booking_url": "not found (no booking needed)",
+      "why_go": "See the fish, produce and cheese that end up on the pintxo counters.",
+      "notes": "Coordinates are for La Bretxa. San Martín is about 43.3170, -1.9830. Bretxa hours come from one dataset only, so treat them as approximate. San Martín stalls include butchers and a lamb and kid specialist.",
+      "sources": [
+        "https://tablejourney.com/spain/san-sebastian/markets/mercado-de-la-bretxa/",
+        "https://tablejourney.com/spain/san-sebastian/markets/mercado-san-martin/",
+        "https://www.msanmartin.es/"
+      ]
+    },
+    {
+      "id": "sidreria-petritegi",
+      "name": "Sidrería Petritegi (cider house)",
+      "category": "food",
+      "dates": "Nov 5–8 and Nov 10 (closed Mon Nov 9)",
+      "times": "Lunch Tue–Sun 13:00–15:00; dinner Tue–Sat 20:00–21:30",
+      "venue": "Petritegi Sagardotegia",
+      "address": "Petritegi Bidea, 20115 Astigarraga",
+      "neighborhood": "Astigarraga (about 15 min drive south of the city)",
+      "lat": 43.2885,
+      "lng": -1.9426,
+      "price": "Cider-house menu about €40 (third-party estimate)",
+      "booking_url": "https://www.petritegi.com/",
+      "why_go": "Txotx season runs mid-January to late April, but Petritegi serves the full cider-house meal all year.",
+      "notes": "Classic menu: chorizo in cider, salt-cod omelet, fried cod with green peppers, grilled txuleta, Idiazabal cheese with quince and walnuts. Petritegi keeps refrigerated barrels so you can still pour from the kupela. Other year-round options named by the tourism office: Sagardoteka El Vaskito, Bodega de Sidra Aburuza, Sidrería Saizar. Most others open only in season. Phone +34 943 457 188.",
+      "sources": [
+        "https://www.sansebastianturismoa.eus/es/comer/la-sidra",
+        "https://doeatbetterexperience.com/es/blog/mejores-sidrerias-san-sebastian/",
+        "https://www.petritegi.com/"
+      ]
+    },
+    {
+      "id": "pintxo-wine-tour",
+      "name": "Pintxos tasting paired with Spanish wine (tour)",
+      "category": "food",
+      "dates": "Daily, Nov 5–10",
+      "times": "12:00–15:00 or 19:00–22:00 (3 hours)",
+      "venue": "Meets at the Boulevard kiosk",
+      "address": "Alderdi Eder / Boulevard kiosk, 20003 Donostia",
+      "neighborhood": "Parte Vieja / Boulevard",
+      "lat": 43.3225,
+      "lng": -1.9845,
+      "price": "€99 per person",
+      "booking_url": "https://www.sansebastianturismoa.eus/en/shop/gastronomic/4012-pintxo-tour-paired-spanish-wines",
+      "why_go": "An easy first night: a guide picks the bars and orders for you.",
+      "notes": "5 pintxos and 5 wines. English and Spanish. Run by Donostyle Tours, sold by the official tourism office. Departs with 2 or more people. No cancellations within 48 hours.",
+      "sources": [
+        "https://www.sansebastianturismoa.eus/en/shop/gastronomic/4012-pintxo-tour-paired-spanish-wines"
+      ]
+    },
+    {
+      "id": "basque-cooking-class",
+      "name": "Basque cuisine cooking class",
+      "category": "food",
+      "dates": "Thu Nov 5 and Sat Nov 7 (runs Wed, Thu, Sat)",
+      "times": "16:45 (2 h 45 min)",
+      "venue": "Cooking school meeting point",
+      "address": "Calle 31 de Agosto 29, 20003 Donostia",
+      "neighborhood": "Parte Vieja",
+      "lat": 43.3241,
+      "lng": -1.9850,
+      "price": "€140 adults",
+      "booking_url": "https://sansebastianturismoa.eus/en/shop/gastronomic/4922-basque-cooking-course",
+      "why_go": "Learn to cook Basque dishes hands-on in the Old Town.",
+      "notes": "Class is in English. Book early, space is limited. 10% off with a San Sebastián Card or Basque Card.",
+      "sources": [
+        "https://sansebastianturismoa.eus/en/shop/gastronomic/4922-basque-cooking-course"
+      ]
+    },
+    {
+      "id": "akelarre",
+      "name": "Akelarre (Pedro Subijana)",
+      "category": "food",
+      "dates": "Open Nov 5–7 and lunch Sun Nov 8. Closed Sun evening, Mon Nov 9 and Tue Nov 10.",
+      "times": "Lunch from 13:00, dinner from 20:15 (the site lists two slightly different time ranges)",
+      "venue": "Akelarre",
+      "address": "Padre Orcolaga 56, Igeldo, 20008 Donostia",
+      "neighborhood": "Igeldo (west of the city, on the hill)",
+      "lat": 43.3062,
+      "lng": -2.0403,
+      "price": "Tasting menus Aranori or Bekarki, €395 each, drinks not included",
+      "booking_url": "https://akelarre.net/en/book-akelarre/",
+      "why_go": "Three-star tasting menu with a sea view over the Bay of Biscay.",
+      "notes": "Annual closure is Dec 19 to Feb 26, so it is open in early November. Phone +34 943 311 209. Booking status for these dates not checked.",
+      "sources": [
+        "https://akelarre.net/en/opening-hours-and-holidays",
+        "https://akelarre.net/en/menus/",
+        "https://akelarre.net/en/contact-and-location/"
+      ]
+    },
+    {
+      "id": "martin-berasategui",
+      "name": "Martín Berasategui",
+      "category": "food",
+      "dates": "Open Thu Nov 5 to Sun Nov 8. Closed Mon Nov 9 and Tue Nov 10.",
+      "times": "Wed–Thu 13:00–14:15; Fri–Sat 13:00–14:15 and 20:30–21:30; Sun 13:00–14:15",
+      "venue": "Restaurante Martín Berasategui",
+      "address": "Loidi 4, 20160 Lasarte-Oria",
+      "neighborhood": "Lasarte-Oria (about 15 min drive)",
+      "lat": 43.2701,
+      "lng": -2.0187,
+      "price": "not found (Michelin €€€€ band)",
+      "booking_url": "https://www.martinberasategui.com/",
+      "why_go": "One of Spain's most decorated chefs, at his flagship three-star restaurant.",
+      "notes": "Annual closure dates for 2026 not found. Phone +34 943 366 471, info@martinberasategui.com. Booking status not checked.",
+      "sources": [
+        "https://guide.michelin.com/en/pais-vasco/lasarte-oria/restaurant/martin-berasategui",
+        "https://turismo.euskadi.eus/en/restaurants/martin-berasategui-restaurant/webtur00-content/en/"
+      ]
+    },
+    {
+      "id": "arzak-mugaritz-closed",
+      "name": "Arzak and Mugaritz (both closed on your dates)",
+      "category": "food",
+      "dates": "Closed Nov 5–10",
+      "times": "Arzak: on holiday Nov 1–25, 2026. Mugaritz: 2026 season ended Oct 25.",
+      "venue": "Arzak; Mugaritz",
+      "address": "Arzak: Avda. Alcalde José Elosegi 273, 20015 Donostia. Mugaritz: Errenteria (address not checked).",
+      "neighborhood": "Arzak: Alza (east side). Mugaritz: Errenteria.",
+      "lat": 43.3196,
+      "lng": -1.9475,
+      "price": "Arzak tasting menu €315 (for future reference)",
+      "booking_url": "https://www.arzak.es/en/reservation/",
+      "why_go": "Skip on this trip: both are closed, so book Akelarre or Berasategui instead.",
+      "notes": "Coordinates are for Arzak. Arzak also warned in May 2026 about fake sites taking reservations in its name; book only through arzak.es.",
+      "sources": [
+        "https://www.arzak.es/en/reservation/",
+        "https://www.mugaritz.com/en/",
+        "https://orain.eus/es/actualidad/sociedad/2026/05/01/arzak-denuncia-la-suplantacion-su-marca-realizar-estafas-en-reservas-online/"
+      ]
+    },
+    {
+      "id": "getaria-hondarribia-day-trips",
+      "name": "Day trips: Getaria (txakoli, Balenciaga) and Hondarribia (pintxos)",
+      "category": "food",
+      "dates": "Any day; Balenciaga museum hours for November not found",
+      "times": "Getaria: UK10/UK11 bus from Avenida de la Libertad, about 30 min, every 30 min. Hondarribia: E20/E21 bus from Plaza de Gipuzkoa, about 25 min, every 30 min.",
+      "venue": "Getaria; Hondarribia",
+      "address": "Getaria tourist office: Kale Nagusia 38, 20808 Getaria",
+      "neighborhood": "Coast west (Getaria) and east (Hondarribia)",
+      "lat": 43.3036,
+      "lng": -2.2044,
+      "price": "Bus fare not found; winery visit prices not found",
+      "booking_url": "https://www.getariakotxakolina.eus/en/?p=13755",
+      "why_go": "Getaria has txakoli vineyards, grilled fish and the Balenciaga museum; Hondarribia has a painted fishermen's street full of pintxo bars.",
+      "notes": "Getaria wineries that take visitors include Ameztoi, Txomin Etxaniz, Gaintza, Gañeta and Akarregi Txiki. You must call ahead to book; November schedules not found. Balenciaga museum shows on view: 'Technique, Material and Form' and 'The Givenchiaga Family'; 'Vivre sa vie. Georges Dambier' runs to Dec 13, 2026. Coordinates are for Getaria; Hondarribia is about 43.3680, -1.7930.",
+      "sources": [
+        "https://www.lonelyplanet.com/articles/best-day-trips-from-san-sebastian",
+        "https://www.getariakotxakolina.eus/en/?p=13755",
+        "https://getariaturismo.eus/en/txakolina/",
+        "https://www.cristobalbalenciagamuseoa.com/en/"
+      ]
+    },
+    {
+      "id": "rosana-kursaal",
+      "name": "Rosana in concert",
+      "category": "music",
+      "dates": "Thu Nov 5, 2026",
+      "times": "Doors 19:00; start time not found",
+      "venue": "Kursaal",
+      "address": "Avenida de Zurriola 1, 20002 Donostia",
+      "neighborhood": "Gros",
+      "lat": 43.3240,
+      "lng": -1.9783,
+      "price": "From €46.75",
+      "booking_url": "https://www.songkick.com/es/concerts/43465220-rosana-at-kursaal",
+      "why_go": "Spanish pop singer-songwriter in the city's landmark glass concert hall, on arrival night.",
+      "notes": "Only listed on Songkick; the official Kursaal site could not be checked. Confirm on the Kursaal box office.",
+      "sources": [
+        "https://www.songkick.com/es/concerts/43465220-rosana-at-kursaal"
+      ]
+    },
+    {
+      "id": "euskadiko-orkestra-aita-donostia",
+      "name": "Basque National Orchestra: Aita Donostia, La vie profonde de Saint François d'Assise",
+      "category": "music",
+      "dates": "Fri Nov 6 and Mon Nov 9, 2026",
+      "times": "19:30 (about 66 min)",
+      "venue": "Kursaal",
+      "address": "Avenida de Zurriola 1, 20002 Donostia",
+      "neighborhood": "Gros",
+      "lat": 43.3240,
+      "lng": -1.9783,
+      "price": "From €10",
+      "booking_url": "https://sarrerak.euskadikoorkestra.eus/eu/programa-2-20261106-1930",
+      "why_go": "A local orchestra and choirs performing music by San Sebastián's own composer-priest.",
+      "notes": "Conductor Ernest Martínez Izquierdo. With reciter Annie Dutoit-Argerich, tenor Luken Munguira and the Easo choirs. The booking link is for Nov 6; buy Nov 9 from the concert page.",
+      "sources": [
+        "https://en.euskadikoorkestra.eus/concert/aita-donostia-vie-profonde-saint-francois-dassise",
+        "https://en.euskadikoorkestra.eus/conciertos-y-entradas"
+      ]
+    },
+    {
+      "id": "dabadaba-shows",
+      "name": "Dabadaba club shows: okvsho, HABI + Etxekalte, The Sonic Beat Explosion",
+      "category": "music",
+      "dates": "okvsho Thu Nov 5; HABI + Etxekalte Fri Nov 6; The Sonic Beat Explosion Sun Nov 8",
+      "times": "Doors 20:00 each night; start times not found",
+      "venue": "Dabadaba",
+      "address": "Mundaitz Kalea 8, 20012 Donostia",
+      "neighborhood": "Egia (by Tabakalera and the train station)",
+      "lat": 43.3169,
+      "lng": -1.9763,
+      "price": "okvsho from €20.03; HABI and Sonic Beat Explosion from €13.35",
+      "booking_url": "https://www.songkick.com/es/venues/2564709-dabadaba",
+      "why_go": "The city's main small indie club, a good local night out.",
+      "notes": "Tickets sold through DICE. Genres not stated by the source. Event pages: songkick.com/es/concerts/43120127, 43348410, 43427447.",
+      "sources": [
+        "https://www.songkick.com/es/concerts/43120127-okvsho-at-dabadaba",
+        "https://www.songkick.com/es/concerts/43348410-habi-at-dabadaba",
+        "https://www.songkick.com/es/concerts/43427447-sonic-beat-explosion-at-dabadaba"
+      ]
+    },
+    {
+      "id": "putochinomaricon-tabakalera",
+      "name": "PUTOCHINOMARICÓN live",
+      "category": "music",
+      "dates": "Sat Nov 7, 2026",
+      "times": "Doors 20:00",
+      "venue": "Kutxa Fundazioa Kluba, Tabakalera",
+      "address": "Plaza de las Cigarreras 1, 20012 Donostia",
+      "neighborhood": "Egia",
+      "lat": 43.3170,
+      "lng": -1.9786,
+      "price": "not found",
+      "booking_url": "https://www.songkick.com/es/concerts/43372480-putochinomaricon-at-kutxa-fundazioa-kluba",
+      "why_go": "Madrid electro-pop artist in the club space inside Tabakalera.",
+      "notes": "Songkick lists the address as Mundaitz Kalea 1; the venue is inside Tabakalera, so the Tabakalera address is used here.",
+      "sources": [
+        "https://www.songkick.com/es/concerts/43372480-putochinomaricon-at-kutxa-fundazioa-kluba",
+        "https://turismo.euskadi.eus/en/museums/tabakalera/webtur00-content/en/"
+      ]
+    },
+    {
+      "id": "horror-film-week",
+      "name": "37th Horror and Fantasy Film Week (final days)",
+      "category": "art",
+      "dates": "Runs Oct 30 – Nov 6, 2026; you catch Nov 5 and Nov 6",
+      "times": "Nov 5: 16:30, 19:30, 22:30 at Teatro Principal; 19:00 at Victoria Eugenia. Nov 6: 16:30, then closing film 20:00 (sold out, waiting list).",
+      "venue": "Teatro Principal and Teatro Victoria Eugenia",
+      "address": "Teatro Principal: Kale Nagusia 3, Parte Vieja (address not verified). Victoria Eugenia: Reina Regente 8 (address not verified).",
+      "neighborhood": "Parte Vieja / Centro",
+      "lat": 43.3232,
+      "lng": -1.9858,
+      "price": "€5 per session",
+      "booking_url": "https://sansebastianhorrorfestival.eus/2026/",
+      "why_go": "A fun, rowdy local film festival with cheap tickets in historic theaters.",
+      "notes": "Nov 5 films include 'No rest for the wicked', 'Crawlers', 'Impostores', and 'Izaki pixkat gardenak' (a singing-ghost Basque series, 54 min). Nov 6: 'Kárate contra mafia' and the closing 'Pinocho desatado' (sold out). Coordinates are for Teatro Principal.",
+      "sources": [
+        "https://sansebastianturismoa.eus/agenda/37a-semana-de-cine-fantastico-y-de-terror/",
+        "https://tickets.donostiakultura.eus/list/events?lang=en",
+        "https://tickets.donostiakultura.eus/selection/event/date?productId=10230337170062"
+      ]
+    },
+    {
+      "id": "tabakalera-exhibitions",
+      "name": "Tabakalera and Kubo Kutxa exhibitions",
+      "category": "art",
+      "dates": "Tue–Sun; exhibition halls closed Mon Nov 9",
+      "times": "Exhibition halls Tue–Sun 12:00–14:00 and 16:00–20:00 (another official page says 11:00–13:00 and 16:00–20:00)",
+      "venue": "Tabakalera (former tobacco factory)",
+      "address": "Plaza de las Cigarreras 1, 20012 Donostia",
+      "neighborhood": "Egia",
+      "lat": 43.3170,
+      "lng": -1.9786,
+      "price": "Free (Tsai Ming-Liang show); others not found",
+      "booking_url": "https://www.tabakalera.eus/",
+      "why_go": "The city's contemporary culture hub, with free film-art shows and a rooftop view.",
+      "notes": "On view: 'Walker' by filmmaker Tsai Ming-Liang, three slow-walking films, Sep 18 – Dec 6, 2026, free. 'Kooperatiba' by Carla Filipe and Taxio Ardanaz, Jul 3, 2026 – Jan 10, 2027. Kubo Kutxa space: Xabier Morrás, Oct 23, 2026 – Feb 2027 (from the yearly program; not confirmed on a show page).",
+      "sources": [
+        "https://sansebastianturismoa.eus/en/agenda/tsai-ming-liang-walker-3/",
+        "https://makusi.tabakalera.eus/en/akzioak/kutxa-fundazioa-and-tabakalera-present-a-programme-of-11-new-exhibitions-for-2026/",
+        "https://orain.eus/en/kultura/art/2026/07/02/the-exhibition-cooperativa-brings-together-the-work-of-carla-filipe-and-taxio-ardanaz-in-tabakalera/",
+        "https://turismo.euskadi.eus/en/museums/tabakalera/webtur00-content/en/"
+      ]
+    },
+    {
+      "id": "san-telmo-museoa",
+      "name": "San Telmo Museoa",
+      "category": "art",
+      "dates": "Tue–Sun; closed Mon Nov 9",
+      "times": "10:00–20:00",
+      "venue": "San Telmo Museoa",
+      "address": "Plaza Zuloaga 1, 20003 Donostia (address not verified on a fetched page)",
+      "neighborhood": "Parte Vieja",
+      "lat": 43.3247,
+      "lng": -1.9842,
+      "price": "€10; free every Tuesday (Nov 10)",
+      "booking_url": "https://www.santelmomuseoa.eus/",
+      "why_go": "Basque history and art in a 16th-century convent, with the Sert murals in the old church.",
+      "notes": "Confirmed on view: the permanent Basque society collection and 'BALTZUNE' (Museo Bikoitza), until Jun 11, 2027. Isabel Coixet collages close Nov 1. Any new autumn show was not confirmed. Hours and prices come from the summer 2026 agenda.",
+      "sources": [
+        "https://www.santelmomuseoa.eus/uploads/Actividades/Agenda/2026/STM_Agenda_uda_verano_2026.pdf",
+        "https://www.santelmomuseoa.eus/m/exposiciones.php?lang=en"
+      ]
+    },
+    {
+      "id": "chillida-leku",
+      "name": "Chillida Leku",
+      "category": "art",
+      "dates": "Nov 5–9 open. Closed Tue Nov 10 (in Nov–Feb it closes Tue and Wed).",
+      "times": "10:00–18:00 (November to February)",
+      "venue": "Chillida Leku museum and sculpture park",
+      "address": "Barrio Jauregui 66, 20120 Hernani",
+      "neighborhood": "Hernani (about 20 min south)",
+      "lat": 43.2853,
+      "lng": -1.9927,
+      "price": "€14 adults (€18 with guided tour); over-65s and students €10",
+      "booking_url": "https://www.museochillidaleku.com/en",
+      "why_go": "Eduardo Chillida's huge iron and stone sculptures set in fields around an old farmhouse.",
+      "notes": "Bus: Lurraldebus line BU05; the stop is about 50 m away, reached by stairs or a ramp under the road. Check lurraldebus.eus for times. Buy tickets online.",
+      "sources": [
+        "https://accessibility.sansebastianturismoa.eus/en/what-to-visit/museums/chillida-leku-museum",
+        "https://turismo.euskadi.eus/es/museos/museo-chillida-leku/webtur00-content/es/"
+      ]
+    },
+    {
+      "id": "peine-del-viento",
+      "name": "Peine del Viento (Comb of the Wind)",
+      "category": "art",
+      "dates": "Daily, Nov 5–10",
+      "times": "Open-air, any time; may be closed by police in storms",
+      "venue": "Peine del Viento square",
+      "address": "West end of Ondarreta beach, at the foot of Monte Igeldo",
+      "neighborhood": "Ondarreta / Igeldo",
+      "lat": 43.3218,
+      "lng": -2.0050,
+      "price": "Free",
+      "booking_url": "not needed",
+      "why_go": "Chillida's three steel sculptures gripping the rocks, best when the sea is rough.",
+      "notes": "Finished and gifted to the city in 1977. Square by architect Luis Peña Ganchegui. Walk the bay from La Concha via the Miramar tunnel. Stay clear of the waves.",
+      "sources": [
+        "https://sansebastianturismoa.eus/en/to-do/open-air-sculptures/the-wind-comb/"
+      ]
+    },
+    {
+      "id": "cristina-enea",
+      "name": "Cristina Enea park",
+      "category": "art",
+      "dates": "Daily, Nov 5–10",
+      "times": "Park hours not found. Foundation info point 9:30–13:30 and 16:30–19:30.",
+      "venue": "Cristina Enea park",
+      "address": "Paseo Duque de Mandas 66, 20012 Donostia",
+      "neighborhood": "Egia",
+      "lat": 43.3144,
+      "lng": -1.9750,
+      "price": "not found (likely free; not confirmed)",
+      "booking_url": "not needed",
+      "why_go": "A quiet 19th-century garden with peacocks and old trees, right next to Tabakalera.",
+      "notes": "About 9.5 hectares. Designed by Pierre Ducasse. Pair it with Tabakalera and Dabadaba.",
+      "sources": [
+        "https://accessibility.sansebastianturismoa.eus/en/what-to-visit/parks-gardens/cristina-enea-park"
+      ]
+    },
+    {
+      "id": "guggenheim-bilbao",
+      "name": "Guggenheim Bilbao (day trip)",
+      "category": "art",
+      "dates": "Tue–Sun; closed Mon Nov 9",
+      "times": "10:00–19:00",
+      "venue": "Guggenheim Museum Bilbao",
+      "address": "Bilbao (about 1 hour+ from San Sebastián; transport not checked)",
+      "neighborhood": "Bilbao",
+      "lat": 43.2687,
+      "lng": -2.9340,
+      "price": "not found",
+      "booking_url": "https://tickets.guggenheim-bilbao.eus/",
+      "why_go": "Steve McQueen and Pipilotti Rist video shows inside Gehry's famous building.",
+      "notes": "On view Nov 5–10: 'Steve McQueen: 66–76–26' (Oct 9, 2026 – Feb 21, 2027), 'Ever is Over All. Pipilotti Rist' (Oct 1, 2026 – Jan 17, 2027), and the collection. Dan Flavin opens Nov 11, one day after you leave.",
+      "sources": [
+        "https://www.guggenheim-bilbao.eus/en/exhibitions"
+      ]
+    }
+  ],
+  "city_notes": [
+    {
+      "note": "Pintxo etiquette: order at the bar, one or two pintxos and a drink, then move on. Cold pintxos sit on the counter; hot ones are ordered from staff or a board. Prices are per piece, and many bars tally up at the end, so keep track. Typical bar hours are about 12:30–15:30 and 19:00–22:30 (Ganbara's hours as an example).",
+      "source": "https://www.rexby.com/da/Foodietravellersguide/t/how-pintxos-really-work-in-san-sebastian ; https://guide.michelin.com/es/es/pais-vasco/donostia-san-sebastian/restaurante/ganbara"
+    },
+    {
+      "note": "Sunday and Monday closures: Ganbara is closed Sun Nov 8 and Mon Nov 9. La Viña, San Telmo, Tabakalera halls, Petritegi and the Guggenheim close Mon Nov 9. Markets close Sun Nov 8. Berasategui and Akelarre close Mon and Tue. Chillida Leku closes Tue Nov 10. Gandarias and Bergara open every day.",
+      "source": "https://guide.michelin.com/es/es/pais-vasco/donostia-san-sebastian/restaurante/ganbara ; https://tablejourney.com/spain/san-sebastian/street-food/tarta-de-queso-la-vina/ ; https://accessibility.sansebastianturismoa.eus/en/what-to-visit/museums/chillida-leku-museum ; https://sansebastianturismoa.eus/en/establecimientos/restaurante-gandarias-2/"
+    },
+    {
+      "note": "November weather: average high 15°C, low 8°C, about 165 mm of rain over 15 rainy days. Sunset is near 17:50. Pack a rain jacket and shoes that handle wet stone.",
+      "source": "https://www.holiday-weather.com/san_sebastian/averages/november/"
+    },
+    {
+      "note": "Barcelona to San Sebastián on Thu Nov 5, by train: one direct Renfe Alvia a day, leaving Barcelona Sants 14:32 and arriving 21:16 (about 6 h 44 min). Fares are dynamic; book on renfe.com. Times reflect the current pattern, so confirm.",
+      "source": "https://everyrail.com/trains/barcelona-to-san-sebastian/"
+    },
+    {
+      "note": "Barcelona to San Sebastián by air: Vueling flies BCN to San Sebastián airport (EAS) in about 1 h 15 min. Recent schedules show VY2484 at 07:00 (arrives 08:20) and VY2486 at 16:05 (arrives 17:20), almost daily in October 2026. EAS is in Hondarribia; the E21 bus runs to the city center.",
+      "source": "https://www.avionio.com/en/flight/vy-2484 ; https://www.avionio.com/en/flight/vy-2486 ; https://www.lonelyplanet.com/articles/best-day-trips-from-san-sebastian"
+    },
+    {
+      "note": "Sun Nov 8 is the Behobia–San Sebastián 20 km road race. It starts at 09:30 and finishes on the Boulevard, so expect crowds and street closures near the Parte Vieja that morning.",
+      "source": "https://sansebastianturismoa.eus/fr/agenda-culturel-saint-sebastien-2026/ ; https://sansebastianturismoa.eus/en/agenda/behobia-san-sebastian-2026/"
+    }
+  ],
+  "open_questions": [
+    "Lat/lng values are approximate, placed from the street addresses. No source page confirmed them.",
+    "Hours and closing days not found for La Cuchara de San Telmo, Borda Berri, Bar Néstor and Bodega Donostiarra.",
+    "San Sebastián Gastronomika 2026 was Oct 5–7, so it is not on these dates. No other food festival was found for Nov 5–10.",
+    "Official Kursaal program could not be loaded. Rosana (Nov 5) is confirmed only through Songkick.",
+    "Teatro Victoria Eugenia: nothing for Nov 5–10 was found beyond the horror film week screening on Nov 5.",
+    "No Basque folk music bar or trikitixa/bertsolari session was found for these dates.",
+    "San Telmo Museoa: a new autumn 2026 temporary show was not confirmed. The autumn agenda PDF was blocked.",
+    "Xabier Morrás at Kubo Kutxa is dated only from the 2026 program announcement.",
+    "Tabakalera exhibition hours differ between two official pages (12:00–14:00 vs 11:00–13:00 in the morning).",
+    "Martín Berasategui annual closure dates and menu price not found. Booking availability for Akelarre and Berasategui was not checked.",
+    "Txakoli winery visits in November: wineries require a call ahead. November schedules and prices not found.",
+    "Balenciaga Museum (Getaria) November hours and prices not found.",
+    "Literaktum literature festival runs Nov 9–22 at city venues. It was not added as an item; program not checked.",
+    "Barcelona–San Sebastián fares for Nov 5 (train and flight) not checked."
+  ]
+}
