@@ -307,3 +307,8 @@ a.src, .src-list a, .src { font-size: 16px !important; min-height: 32px; line-he
 .fav-box { fill: none; stroke: #000; stroke-width: 1px; vector-effect: non-scaling-stroke; stroke-linejoin: miter; }
 .star-filter[aria-pressed="true"] .fav-box, .w-star[aria-pressed="true"] .fav-box { fill: var(--wsp-gold-40); }
 .w-star.is-pointed { background: none; box-shadow: none; }
+/* Card favorite (Snacks, 2026-10-28 07:47): off = only a 2px white stroke on the outline, nothing else. On = gold fill, the black line and the 3px white stroke outside it. The header keeps both strokes always. */
+.w-star .fav-halo { display: none; }
+.w-star .fav-box { stroke: #fff; stroke-width: 2px; }
+.w-star[aria-pressed="true"] .fav-halo { display: inline; }
+.w-star[aria-pressed="true"] .fav-box { stroke: #000; stroke-width: 1px; }
